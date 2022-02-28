@@ -1,0 +1,112 @@
+{
+  "author": "Jeremy A Gray <gray@flyquackswim.com> (http://www.flyquackswim.com/)",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyagray/scratch/issues"
+  },
+  "dependencies": {
+    "@juggle/resize-observer": "^3.3.1",
+    "d3": "^7.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "description": "A React project from scratch",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-testing-library": "^5.0.5",
+    "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.3.1",
+    "msw": "^0.38.1",
+    "react-router-dom": "^6.2.1",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "homepage": "https://github.com/jeremyagray/scratch",
+  "keywords": [
+    "d3",
+    "react"
+  ],
+  "license": "MIT",
+  "name": "scratch",
+  "pccc": {
+    "header_length": 50,
+    "body_length": 72,
+    "rewrap": true,
+    "spell_check": false,
+    "repair": false,
+    "types": [
+      "build",
+      "ci",
+      "depends",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "style",
+      "test"
+    ],
+    "scopes": [
+      "api",
+      "assets",
+      "css",
+      "d3",
+      "react",
+      "tool"
+    ],
+    "footers": [
+      "signed-off-by"
+    ],
+    "required_footers": [
+      "signed-off-by"
+    ]
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyagray/scratch.git"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "cover": "jest --coverage --watchAll",
+    "lint": "eslint 'src/*.js'",
+    "lint-fix": "eslint 'src/*.js' --fix",
+    "start": "BROWSER=none webpack serve",
+    "test": "jest"
+  },
+  "version": "0.0.1"
+}
