@@ -1,17 +1,19 @@
 /*
- * SPDX-License-Identifier: MIT
  *
- * Copyright 2021 Jeremy A Gray <gray@flyquackswim.com>.
+ * fcc-d3-force-directed-graph, fCC D3 Force Directed Graph Project
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
+ * Copyright 2021-2022 Jeremy A Gray <gray@flyquackswim.com>.
+ *
+ * All rights reserved.
+ *
  */
 
 import {
   render,
   screen,
 } from '@testing-library/react';
-
-// import {
-//   ShallowRenderer
-// } from 'react-test-renderer/shallow';
 
 import App from './App';
 
@@ -20,6 +22,6 @@ test('renders the app', async () => {
 
   render(<App {...props} />);
   
-  const ele = await screen.findByText(/This is React from Scratch/i);
+  const ele = await screen.findByText(/fCC D3 Force Directed Graph: React Demo/i);
   expect(ele).toBeInTheDocument();
 });

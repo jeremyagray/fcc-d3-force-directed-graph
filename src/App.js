@@ -1,40 +1,28 @@
 /*
- * SPDX-License-Identifier: MIT
  *
- * Copyright 2021 Jeremy A Gray <gray@flyquackswim.com>.
+ * fcc-d3-force-directed-graph, fCC D3 Force Directed Graph Project
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ *
+ * Copyright 2021-2022 Jeremy A Gray <gray@flyquackswim.com>.
+ *
+ * All rights reserved.
+ *
  */
-
-// import React from 'react';
-
-// import {
-//   useState
-// } from 'react';
-
-// import {
-//   Switch,
-//   Route,
-// } from "react-router-dom";
 
 // D3.
 import * as d3 from 'd3';
 
 import './App.css';
 
-// import Body from './Body.js';
-// import Contact from './Contact.js';
-// import Footer from './Footer.js';
-// import Header from './Header.js';
-// import Login from './Login.js';
-// import Register from './Register.js';
-
 const App = (props) => {
   return (
     <div className="App">
       <h1>
-        React from Scratch
+        fCC D3 Force Directed Graph: React Demo
       </h1>
       <p>
-        This is React from Scratch.
+        This is the fCC D3 Force Directed Graph React demo.
       </p>
     </div>
   );
