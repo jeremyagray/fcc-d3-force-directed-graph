@@ -36,6 +36,20 @@ def version(line):
     return re.sub(prefix, "", line.rstrip()).split("@")[1]
 
 
+def descendants(node):
+    """Count the descendants of a node."""
+    num = 0
+
+    if node["children"]:
+        for child in node["children"]:
+            # Add the current child.
+            num += 1
+            # Add the current child's descendants.
+            num += descendants(child)
+
+    return num
+
+
 def treeify(packages):
     """Treeify a list of packages."""
     tree = {}
