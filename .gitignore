@@ -28,3 +28,7 @@
 
 # Data.
 /data
+
+# Generated assets.
+public/*.js
+public/*.json
