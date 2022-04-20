@@ -21,7 +21,7 @@ module.exports = {
       'directory': path.join(__dirname, 'public'),
     },
     'compress': true,
-    'port': 3005,
+    'port': 3006,
   },
   'entry': {
     'index': path.resolve(__dirname, 'src', 'index.js')
