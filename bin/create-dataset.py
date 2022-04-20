@@ -12,7 +12,7 @@
 #
 # ******************************************************************************
 
-# import json
+import json
 import re
 import sys
 
@@ -53,79 +53,137 @@ def descendants(node):
 def treeify(packages):
     """Treeify a list of packages."""
     tree = {}
-    current = tree
+    ancestors = []
 
     for package in packages:
         # Package is the root of the tree.
         if package["level"] == 0 and tree == {}:
             tree = {
-                "parent": None,
                 "children": None,
                 "level": 0,
                 "package": package["package"],
                 "version": package["version"],
             }
 
-            current = tree
+            ancestors.append(tree)
 
-        # Package is a sibling of the current package.
-        elif package["level"] == current["level"]:
-            if current["level"] == 0:
-                parent = current
-            else:
-                parent = current["parent"]
+        # Package is a daughter of the last ancestor.
+        elif package["level"] == ancestors[-1]["level"] + 1:
+            if ancestors[-1]["children"] is None:
+                ancestors[-1]["children"] = []
 
-            if parent["children"] is None:
-                parent["children"] = []
-
-            parent["children"].append({
-                "parent": parent if package["level"] > 0 else None,
+            ancestors[-1]["children"].append({
                 "children": None,
                 "level": package["level"],
                 "package": package["package"],
                 "version": package["version"],
             })
 
-            current = parent["children"][-1]
+            ancestors.append(ancestors[-1]["children"][-1])
 
-        # Package is a child of the current package.
-        elif package["level"] == current["level"] + 1:
-            if current["children"] is None:
-                current["children"] = []
+        # Package is an aunt/sister of the last ancestor.
+        elif package["level"] <= ancestors[-1]["level"]:
+            while package["level"] <= ancestors[-1]["level"]:
+                ancestors.pop()
 
-            current["children"].append({
-                "parent": current,
+            if ancestors[-1]["children"] is None:
+                ancestors[-1]["children"] = []
+
+            ancestors[-1]["children"].append({
                 "children": None,
                 "level": package["level"],
                 "package": package["package"],
                 "version": package["version"],
             })
 
-            current = current["children"][-1]
-
-        # Package is an ancestor of the current package.
-        elif package["level"] < current["level"]:
-            while package["level"] <= current["level"]:
-                current = current["parent"]
-
-            if current["children"] is None:
-                current["children"] = []
-
-            current["children"].append({
-                "parent": current,
-                "children": None,
-                "level": package["level"],
-                "package": package["package"],
-                "version": package["version"],
-            })
-
-            current = current["children"][-1]
+            ancestors.append(ancestors[-1]["children"][-1])
 
     return tree
 
 
+def nodes(tree):
+    """Produce a list of nodes from a tree of dependencies."""
+    packages = [
+        {
+            "package": tree["package"],
+            "level": tree["level"],
+            "version": tree["version"],
+        },
+    ]
+
+    if tree["children"]:
+        for child in tree["children"]:
+            packages += nodes(child)
+
+    return packages
+
+
+def snowflake(nodes, ignore_version=True):
+    """Make a unique list."""
+    names = []
+    filtered = []
+    rejects = 0
+
+    for node in nodes:
+        if ignore_version and node["package"] not in names:
+            names.append(node["package"])
+            filtered.append(node)
+        elif not ignore_version and node not in filtered:
+            filtered.append(node)
+        else:
+            rejects += 1
+
+    assert len(nodes) == len(filtered) + rejects
+
+    return filtered
+
+
+def pairs(tree, ignore_version=True):
+    """Produce a list of pairs from a tree of dependencies."""
+    my_pairs = []
+
+    if tree["children"]:
+        for child in tree["children"]:
+            my_pairs.append((tree["package"], child["package"],))
+            my_pairs += pairs(child)
+
+    return my_pairs
+
+
+def links(tree, ignore_version=True):
+    """Produce a list of links from a tree of dependencies."""
+    all_pairs = pairs(tree)
+    accepted_pairs = []
+    rejected_pairs = []
+    counts = {}
+
+    for pair in all_pairs:
+        # print(f"pair: {pair}")
+        if pair in accepted_pairs:
+            rejected_pairs.append(pair)
+            counts[pair] += 1
+        elif (pair[1], pair[0],) in accepted_pairs:
+            rejected_pairs.append(pair)
+            counts[(pair[1], pair[0],)] += 1
+        else:
+            accepted_pairs.append(pair)
+            counts[pair] = 1
+
+    assert len(all_pairs) == len(accepted_pairs) + len(rejected_pairs)
+
+    my_links = []
+    for (k, v) in counts.items():
+        my_links.append({
+            "source": k[0],
+            "target": k[1],
+            "links": v,
+        })
+
+    return my_links
+
+
 def main():
-    """Convert a list of package dependencies to a tree."""
+    """Convert npm-ls output to JSON force-directed graph data."""
     filename = sys.argv[1]
     packages = []
 
@@ -137,11 +195,12 @@ def main():
                 "level": level(line),
             })
 
-    # print(json.dumps(treeify(packages), indent=2))
-    # print(treeify(packages))
     tree = treeify(packages)
-    for child in tree["children"]:
-        print(f"package: {child['package']} version: {child['version']}")
+
+    print(json.dumps({
+        "nodes": nodes(tree),
+        "links": links(tree),
+    }, indent=2))
 
     return
 
