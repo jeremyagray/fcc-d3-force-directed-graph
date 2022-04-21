@@ -1,4547 +1,2332 @@
 {
   "nodes": [
     {
-      "package": "browserify",
+      "dependency": "browserify",
       "level": 0,
       "version": "17.0.0"
     },
     {
-      "package": "assert",
+      "dependency": "assert",
       "level": 1,
       "version": "1.5.0"
     },
     {
-      "package": "object-assign",
+      "dependency": "object-assign",
       "level": 2,
       "version": "4.1.1"
     },
     {
-      "package": "util",
+      "dependency": "util",
       "level": 2,
       "version": "0.10.3"
     },
     {
-      "package": "inherits",
+      "dependency": "inherits",
       "level": 3,
       "version": "2.0.1"
     },
     {
-      "package": "JSONStream",
+      "dependency": "JSONStream",
       "level": 1,
       "version": "1.3.5"
     },
     {
-      "package": "jsonparse",
+      "dependency": "jsonparse",
       "level": 2,
       "version": "1.3.1"
     },
     {
-      "package": "through",
+      "dependency": "through",
       "level": 2,
       "version": "2.3.8"
     },
     {
-      "package": "browserify-zlib",
+      "dependency": "browserify-zlib",
       "level": 1,
       "version": "0.2.0"
     },
     {
-      "package": "pako",
+      "dependency": "pako",
       "level": 2,
       "version": "1.0.11"
     },
     {
-      "package": "cached-path-relative",
+      "dependency": "cached-path-relative",
       "level": 1,
       "version": "1.1.0"
     },
     {
-      "package": "constants-browserify",
+      "dependency": "constants-browserify",
       "level": 1,
       "version": "1.0.0"
     },
     {
-      "package": "console-browserify",
+      "dependency": "console-browserify",
       "level": 1,
       "version": "1.2.0"
     },
     {
-      "package": "browser-pack",
+      "dependency": "browser-pack",
       "level": 1,
       "version": "6.1.0"
     },
     {
-      "package": "defined",
+      "dependency": "defined",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "JSONStream",
-      "level": 2,
-      "version": "1.3.5"
-    },
-    {
-      "package": "safe-buffer",
+      "dependency": "safe-buffer",
       "level": 2,
       "version": "5.2.1"
     },
     {
-      "package": "combine-source-map",
+      "dependency": "combine-source-map",
       "level": 2,
       "version": "0.8.0"
     },
     {
-      "package": "convert-source-map",
+      "dependency": "convert-source-map",
       "level": 3,
       "version": "1.1.3"
     },
     {
-      "package": "inline-source-map",
+      "dependency": "inline-source-map",
       "level": 3,
       "version": "0.6.2"
     },
     {
-      "package": "source-map",
+      "dependency": "source-map",
       "level": 4,
       "version": "0.5.7"
     },
     {
-      "package": "lodash.memoize",
+      "dependency": "lodash.memoize",
       "level": 3,
       "version": "3.0.4"
     },
     {
-      "package": "source-map",
-      "level": 3,
-      "version": "0.5.7"
-    },
-    {
-      "package": "through2",
+      "dependency": "through2",
       "level": 2,
       "version": "2.0.5"
     },
     {
-      "package": "umd",
+      "dependency": "umd",
       "level": 2,
       "version": "3.0.3"
     },
     {
-      "package": "browser-resolve",
+      "dependency": "browser-resolve",
       "level": 1,
       "version": "2.0.0"
     },
     {
-      "package": "resolve",
+      "dependency": "resolve",
       "level": 2,
       "version": "1.22.0"
     },
     {
-      "package": "crypto-browserify",
+      "dependency": "crypto-browserify",
       "level": 1,
       "version": "3.12.0"
     },
     {
-      "package": "create-ecdh",
+      "dependency": "create-ecdh",
       "level": 2,
       "version": "4.0.4"
     },
     {
-      "package": "elliptic",
+      "dependency": "elliptic",
       "level": 3,
       "version": "6.5.4"
     },
     {
-      "package": "brorand",
+      "dependency": "brorand",
       "level": 4,
       "version": "1.1.0"
     },
     {
-      "package": "bn.js",
+      "dependency": "bn.js",
       "level": 4,
       "version": "4.12.0"
     },
     {
-      "package": "hash.js",
+      "dependency": "hash.js",
       "level": 4,
       "version": "1.1.7"
     },
     {
-      "package": "minimalistic-assert",
+      "dependency": "minimalistic-assert",
       "level": 5,
       "version": "1.0.1"
     },
     {
-      "package": "inherits",
-      "level": 5,
-      "version": "2.0.4"
-    },
-    {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "minimalistic-assert",
+      "dependency": "minimalistic-crypto-utils",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "minimalistic-crypto-utils",
+      "dependency": "hmac-drbg",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "hmac-drbg",
-      "level": 4,
-      "version": "1.0.1"
-    },
-    {
-      "package": "hash.js",
-      "level": 5,
-      "version": "1.1.7"
-    },
-    {
-      "package": "minimalistic-assert",
-      "level": 5,
-      "version": "1.0.1"
-    },
-    {
-      "package": "minimalistic-crypto-utils",
-      "level": 5,
-      "version": "1.0.1"
-    },
-    {
-      "package": "bn.js",
-      "level": 3,
-      "version": "4.12.0"
-    },
-    {
-      "package": "create-hash",
+      "dependency": "create-hash",
       "level": 2,
       "version": "1.2.0"
     },
     {
-      "package": "cipher-base",
+      "dependency": "cipher-base",
       "level": 3,
       "version": "1.0.4"
     },
     {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "sha.js",
+      "dependency": "sha.js",
       "level": 3,
       "version": "2.4.11"
     },
     {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "inherits",
-      "level": 3,
-      "version": "2.0.4"
-    },
-    {
-      "package": "md5.js",
+      "dependency": "md5.js",
       "level": 3,
       "version": "1.3.5"
     },
     {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "hash-base",
+      "dependency": "hash-base",
       "level": 4,
       "version": "3.1.0"
     },
     {
-      "package": "ripemd160",
+      "dependency": "ripemd160",
       "level": 3,
       "version": "2.0.2"
     },
     {
-      "package": "create-hmac",
+      "dependency": "create-hmac",
       "level": 2,
       "version": "1.1.7"
     },
     {
-      "package": "cipher-base",
-      "level": 3,
-      "version": "1.0.4"
-    },
-    {
-      "package": "create-hash",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "inherits",
-      "level": 3,
-      "version": "2.0.4"
-    },
-    {
-      "package": "ripemd160",
-      "level": 3,
-      "version": "2.0.2"
-    },
-    {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "hash-base",
-      "level": 4,
-      "version": "3.1.0"
-    },
-    {
-      "package": "inherits",
-      "level": 5,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 5,
-      "version": "5.2.1"
-    },
-    {
-      "package": "readable-stream",
+      "dependency": "readable-stream",
       "level": 5,
       "version": "3.6.0"
     },
     {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "sha.js",
-      "level": 3,
-      "version": "2.4.11"
-    },
-    {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "public-encrypt",
+      "dependency": "public-encrypt",
       "level": 2,
       "version": "4.0.3"
     },
     {
-      "package": "bn.js",
-      "level": 3,
-      "version": "4.12.0"
-    },
-    {
-      "package": "create-hash",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "parse-asn1",
+      "dependency": "parse-asn1",
       "level": 3,
       "version": "5.1.6"
     },
     {
-      "package": "browserify-aes",
+      "dependency": "browserify-aes",
       "level": 4,
       "version": "1.2.0"
     },
     {
-      "package": "evp_bytestokey",
+      "dependency": "evp_bytestokey",
       "level": 4,
       "version": "1.0.3"
     },
     {
-      "package": "asn1.js",
+      "dependency": "asn1.js",
       "level": 4,
       "version": "5.4.1"
     },
     {
-      "package": "bn.js",
-      "level": 5,
-      "version": "4.12.0"
-    },
-    {
-      "package": "minimalistic-assert",
-      "level": 5,
-      "version": "1.0.1"
-    },
-    {
-      "package": "inherits",
-      "level": 5,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safer-buffer",
+      "dependency": "safer-buffer",
       "level": 5,
       "version": "2.1.2"
     },
     {
-      "package": "pbkdf2",
+      "dependency": "pbkdf2",
       "level": 4,
       "version": "3.1.2"
     },
     {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "randombytes",
+      "dependency": "randombytes",
       "level": 3,
       "version": "2.1.0"
     },
     {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "browserify-rsa",
+      "dependency": "browserify-rsa",
       "level": 3,
       "version": "4.1.0"
     },
     {
-      "package": "randombytes",
-      "level": 4,
-      "version": "2.1.0"
-    },
-    {
-      "package": "bn.js",
-      "level": 4,
-      "version": "5.2.0"
-    },
-    {
-      "package": "randomfill",
+      "dependency": "randomfill",
       "level": 2,
       "version": "1.0.4"
     },
     {
-      "package": "randombytes",
-      "level": 3,
-      "version": "2.1.0"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "diffie-hellman",
+      "dependency": "diffie-hellman",
       "level": 2,
       "version": "5.0.3"
     },
     {
-      "package": "randombytes",
-      "level": 3,
-      "version": "2.1.0"
-    },
-    {
-      "package": "bn.js",
-      "level": 3,
-      "version": "4.12.0"
-    },
-    {
-      "package": "miller-rabin",
+      "dependency": "miller-rabin",
       "level": 3,
       "version": "4.0.1"
     },
     {
-      "package": "brorand",
-      "level": 4,
-      "version": "1.1.0"
-    },
-    {
-      "package": "bn.js",
-      "level": 4,
-      "version": "4.12.0"
-    },
-    {
-      "package": "pbkdf2",
-      "level": 2,
-      "version": "3.1.2"
-    },
-    {
-      "package": "create-hash",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "create-hmac",
-      "level": 3,
-      "version": "1.1.7"
-    },
-    {
-      "package": "ripemd160",
-      "level": 3,
-      "version": "2.0.2"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "sha.js",
-      "level": 3,
-      "version": "2.4.11"
-    },
-    {
-      "package": "randombytes",
-      "level": 2,
-      "version": "2.1.0"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "browserify-cipher",
+      "dependency": "browserify-cipher",
       "level": 2,
       "version": "1.0.1"
     },
     {
-      "package": "browserify-des",
+      "dependency": "browserify-des",
       "level": 3,
       "version": "1.0.2"
     },
     {
-      "package": "cipher-base",
-      "level": 4,
-      "version": "1.0.4"
-    },
-    {
-      "package": "des.js",
+      "dependency": "des.js",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "inherits",
-      "level": 5,
-      "version": "2.0.4"
-    },
-    {
-      "package": "minimalistic-assert",
-      "level": 5,
-      "version": "1.0.1"
-    },
-    {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "evp_bytestokey",
-      "level": 3,
-      "version": "1.0.3"
-    },
-    {
-      "package": "md5.js",
-      "level": 4,
-      "version": "1.3.5"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "browserify-aes",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "buffer-xor",
+      "dependency": "buffer-xor",
       "level": 4,
       "version": "1.0.3"
     },
     {
-      "package": "create-hash",
-      "level": 4,
-      "version": "1.2.0"
-    },
-    {
-      "package": "cipher-base",
-      "level": 4,
-      "version": "1.0.4"
-    },
-    {
-      "package": "evp_bytestokey",
-      "level": 4,
-      "version": "1.0.3"
-    },
-    {
-      "package": "inherits",
-      "level": 4,
-      "version": "2.0.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 4,
-      "version": "5.2.1"
-    },
-    {
-      "package": "browserify-sign",
+      "dependency": "browserify-sign",
       "level": 2,
       "version": "4.2.1"
     },
     {
-      "package": "browserify-rsa",
-      "level": 3,
-      "version": "4.1.0"
-    },
-    {
-      "package": "create-hash",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "bn.js",
-      "level": 3,
-      "version": "5.2.0"
-    },
-    {
-      "package": "create-hmac",
-      "level": 3,
-      "version": "1.1.7"
-    },
-    {
-      "package": "inherits",
-      "level": 3,
-      "version": "2.0.4"
-    },
-    {
-      "package": "parse-asn1",
-      "level": 3,
-      "version": "5.1.6"
-    },
-    {
-      "package": "elliptic",
-      "level": 3,
-      "version": "6.5.4"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.2.1"
-    },
-    {
-      "package": "readable-stream",
-      "level": 3,
-      "version": "3.6.0"
-    },
-    {
-      "package": "concat-stream",
+      "dependency": "concat-stream",
       "level": 1,
       "version": "1.6.2"
     },
     {
-      "package": "buffer-from",
+      "dependency": "buffer-from",
       "level": 2,
       "version": "1.1.2"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "typedarray",
+      "dependency": "typedarray",
       "level": 2,
       "version": "0.0.6"
     },
     {
-      "package": "duplexer2",
+      "dependency": "duplexer2",
       "level": 1,
       "version": "0.1.4"
     },
     {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "deps-sort",
+      "dependency": "deps-sort",
       "level": 1,
       "version": "2.0.1"
     },
     {
-      "package": "shasum-object",
+      "dependency": "shasum-object",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "subarg",
+      "dependency": "subarg",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "JSONStream",
-      "level": 2,
-      "version": "1.3.5"
-    },
-    {
-      "package": "through2",
-      "level": 2,
-      "version": "2.0.5"
-    },
-    {
-      "package": "events",
+      "dependency": "events",
       "level": 1,
       "version": "3.3.0"
     },
     {
-      "package": "buffer",
+      "dependency": "buffer",
       "level": 1,
       "version": "5.2.1"
     },
     {
-      "package": "ieee754",
+      "dependency": "ieee754",
       "level": 2,
       "version": "1.2.1"
     },
     {
-      "package": "base64-js",
+      "dependency": "base64-js",
       "level": 2,
       "version": "1.5.1"
     },
     {
-      "package": "glob",
+      "dependency": "glob",
       "level": 1,
       "version": "7.2.0"
     },
     {
-      "package": "inflight",
+      "dependency": "inflight",
       "level": 2,
       "version": "1.0.6"
     },
     {
-      "package": "once",
+      "dependency": "once",
       "level": 3,
       "version": "1.4.0"
     },
     {
-      "package": "wrappy",
+      "dependency": "wrappy",
       "level": 3,
       "version": "1.0.2"
     },
     {
-      "package": "fs.realpath",
+      "dependency": "fs.realpath",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "once",
-      "level": 2,
-      "version": "1.4.0"
-    },
-    {
-      "package": "wrappy",
-      "level": 3,
-      "version": "1.0.2"
-    },
-    {
-      "package": "path-is-absolute",
+      "dependency": "path-is-absolute",
       "level": 2,
       "version": "1.0.1"
     },
     {
-      "package": "minimatch",
+      "dependency": "minimatch",
       "level": 2,
       "version": "3.1.2"
     },
     {
-      "package": "brace-expansion",
+      "dependency": "brace-expansion",
       "level": 3,
       "version": "1.1.11"
     },
     {
-      "package": "balanced-match",
+      "dependency": "balanced-match",
       "level": 4,
       "version": "1.0.2"
     },
     {
-      "package": "concat-map",
+      "dependency": "concat-map",
       "level": 4,
       "version": "0.0.1"
     },
     {
-      "package": "https-browserify",
+      "dependency": "https-browserify",
       "level": 1,
       "version": "1.0.0"
     },
     {
-      "package": "inherits",
-      "level": 1,
-      "version": "2.0.4"
-    },
-    {
-      "package": "insert-module-globals",
+      "dependency": "insert-module-globals",
       "level": 1,
       "version": "7.2.1"
     },
     {
-      "package": "acorn-node",
+      "dependency": "acorn-node",
       "level": 2,
       "version": "1.8.2"
     },
     {
-      "package": "acorn-walk",
+      "dependency": "acorn-walk",
       "level": 3,
       "version": "7.2.0"
     },
     {
-      "package": "xtend",
+      "dependency": "xtend",
       "level": 3,
       "version": "4.0.2"
     },
     {
-      "package": "acorn",
+      "dependency": "acorn",
       "level": 3,
       "version": "7.4.1"
     },
     {
-      "package": "is-buffer",
+      "dependency": "is-buffer",
       "level": 2,
       "version": "1.1.6"
     },
     {
-      "package": "path-is-absolute",
-      "level": 2,
-      "version": "1.0.1"
-    },
-    {
-      "package": "concat-stream",
-      "level": 2,
-      "version": "1.6.2"
-    },
-    {
-      "package": "JSONStream",
-      "level": 2,
-      "version": "1.3.5"
-    },
-    {
-      "package": "process",
+      "dependency": "process",
       "level": 2,
       "version": "0.11.10"
     },
     {
-      "package": "through2",
-      "level": 2,
-      "version": "2.0.5"
-    },
-    {
-      "package": "xtend",
-      "level": 2,
-      "version": "4.0.2"
-    },
-    {
-      "package": "combine-source-map",
-      "level": 2,
-      "version": "0.8.0"
-    },
-    {
-      "package": "undeclared-identifiers",
+      "dependency": "undeclared-identifiers",
       "level": 2,
       "version": "1.1.3"
     },
     {
-      "package": "xtend",
-      "level": 3,
-      "version": "4.0.2"
-    },
-    {
-      "package": "acorn-node",
-      "level": 3,
-      "version": "1.8.2"
-    },
-    {
-      "package": "get-assigned-identifiers",
+      "dependency": "get-assigned-identifiers",
       "level": 3,
       "version": "1.2.0"
     },
     {
-      "package": "dash-ast",
+      "dependency": "dash-ast",
       "level": 3,
       "version": "1.0.0"
     },
     {
-      "package": "simple-concat",
+      "dependency": "simple-concat",
       "level": 3,
       "version": "1.0.1"
     },
     {
-      "package": "labeled-stream-splicer",
+      "dependency": "labeled-stream-splicer",
       "level": 1,
       "version": "2.0.2"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "stream-splicer",
+      "dependency": "stream-splicer",
       "level": 2,
       "version": "2.0.1"
     },
     {
-      "package": "inherits",
-      "level": 3,
-      "version": "2.0.4"
-    },
-    {
-      "package": "readable-stream",
-      "level": 3,
-      "version": "2.3.7"
-    },
-    {
-      "package": "mkdirp-classic",
+      "dependency": "mkdirp-classic",
       "level": 1,
       "version": "0.5.3"
     },
     {
-      "package": "has",
+      "dependency": "has",
       "level": 1,
       "version": "1.0.3"
     },
     {
-      "package": "function-bind",
+      "dependency": "function-bind",
       "level": 2,
       "version": "1.1.1"
     },
     {
-      "package": "os-browserify",
+      "dependency": "os-browserify",
       "level": 1,
       "version": "0.3.0"
     },
     {
-      "package": "parents",
+      "dependency": "parents",
       "level": 1,
       "version": "1.0.1"
     },
     {
-      "package": "path-platform",
+      "dependency": "path-platform",
       "level": 2,
       "version": "0.11.15"
     },
     {
-      "package": "process",
-      "level": 1,
-      "version": "0.11.10"
-    },
-    {
-      "package": "defined",
-      "level": 1,
-      "version": "1.0.0"
-    },
-    {
-      "package": "punycode",
+      "dependency": "punycode",
       "level": 1,
       "version": "1.4.1"
     },
     {
-      "package": "module-deps",
+      "dependency": "module-deps",
       "level": 1,
       "version": "6.2.3"
     },
     {
-      "package": "JSONStream",
-      "level": 2,
-      "version": "1.3.5"
-    },
-    {
-      "package": "browser-resolve",
-      "level": 2,
-      "version": "2.0.0"
-    },
-    {
-      "package": "cached-path-relative",
-      "level": 2,
-      "version": "1.1.0"
-    },
-    {
-      "package": "defined",
-      "level": 2,
-      "version": "1.0.0"
-    },
-    {
-      "package": "duplexer2",
-      "level": 2,
-      "version": "0.1.4"
-    },
-    {
-      "package": "detective",
+      "dependency": "detective",
       "level": 2,
       "version": "5.2.0"
     },
     {
-      "package": "acorn-node",
-      "level": 3,
-      "version": "1.8.2"
-    },
-    {
-      "package": "defined",
-      "level": 3,
-      "version": "1.0.0"
-    },
-    {
-      "package": "minimist",
+      "dependency": "minimist",
       "level": 3,
       "version": "1.2.5"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "parents",
-      "level": 2,
-      "version": "1.0.1"
-    },
-    {
-      "package": "xtend",
-      "level": 2,
-      "version": "4.0.2"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "concat-stream",
-      "level": 2,
-      "version": "1.6.2"
-    },
-    {
-      "package": "resolve",
-      "level": 2,
-      "version": "1.22.0"
-    },
-    {
-      "package": "subarg",
-      "level": 2,
-      "version": "1.0.0"
-    },
-    {
-      "package": "stream-combiner2",
+      "dependency": "stream-combiner2",
       "level": 2,
       "version": "1.1.1"
     },
     {
-      "package": "duplexer2",
-      "level": 3,
-      "version": "0.1.4"
-    },
-    {
-      "package": "readable-stream",
-      "level": 3,
-      "version": "2.3.7"
-    },
-    {
-      "package": "through2",
-      "level": 2,
-      "version": "2.0.5"
-    },
-    {
-      "package": "path-browserify",
+      "dependency": "path-browserify",
       "level": 1,
       "version": "1.0.1"
     },
     {
-      "package": "read-only-stream",
+      "dependency": "read-only-stream",
       "level": 1,
       "version": "2.0.0"
     },
     {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "shasum-object",
-      "level": 1,
-      "version": "1.0.0"
-    },
-    {
-      "package": "fast-safe-stringify",
+      "dependency": "fast-safe-stringify",
       "level": 2,
       "version": "2.1.1"
     },
     {
-      "package": "readable-stream",
-      "level": 1,
-      "version": "2.3.7"
-    },
-    {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "core-util-is",
+      "dependency": "core-util-is",
       "level": 2,
       "version": "1.0.3"
     },
     {
-      "package": "process-nextick-args",
+      "dependency": "process-nextick-args",
       "level": 2,
       "version": "2.0.1"
     },
     {
-      "package": "safe-buffer",
-      "level": 2,
-      "version": "5.1.2"
-    },
-    {
-      "package": "string_decoder",
+      "dependency": "string_decoder",
       "level": 2,
       "version": "1.1.1"
     },
     {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.1.2"
-    },
-    {
-      "package": "util-deprecate",
+      "dependency": "util-deprecate",
       "level": 2,
       "version": "1.0.2"
     },
     {
-      "package": "isarray",
+      "dependency": "isarray",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "querystring-es3",
+      "dependency": "querystring-es3",
       "level": 1,
       "version": "0.2.1"
     },
     {
-      "package": "domain-browser",
+      "dependency": "domain-browser",
       "level": 1,
       "version": "1.2.0"
     },
     {
-      "package": "stream-http",
+      "dependency": "stream-http",
       "level": 1,
       "version": "3.2.0"
     },
     {
-      "package": "builtin-status-codes",
+      "dependency": "builtin-status-codes",
       "level": 2,
       "version": "3.0.0"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "3.6.0"
-    },
-    {
-      "package": "inherits",
-      "level": 3,
-      "version": "2.0.4"
-    },
-    {
-      "package": "string_decoder",
-      "level": 3,
-      "version": "1.3.0"
-    },
-    {
-      "package": "util-deprecate",
-      "level": 3,
-      "version": "1.0.2"
-    },
-    {
-      "package": "xtend",
-      "level": 2,
-      "version": "4.0.2"
-    },
-    {
-      "package": "resolve",
-      "level": 1,
-      "version": "1.22.0"
-    },
-    {
-      "package": "is-core-module",
+      "dependency": "is-core-module",
       "level": 2,
       "version": "2.8.1"
     },
     {
-      "package": "has",
-      "level": 3,
-      "version": "1.0.3"
-    },
-    {
-      "package": "path-parse",
+      "dependency": "path-parse",
       "level": 2,
       "version": "1.0.7"
     },
     {
-      "package": "supports-preserve-symlinks-flag",
+      "dependency": "supports-preserve-symlinks-flag",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "string_decoder",
-      "level": 1,
-      "version": "1.3.0"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 2,
-      "version": "5.2.1"
-    },
-    {
-      "package": "subarg",
-      "level": 1,
-      "version": "1.0.0"
-    },
-    {
-      "package": "minimist",
-      "level": 2,
-      "version": "1.2.5"
-    },
-    {
-      "package": "htmlescape",
+      "dependency": "htmlescape",
       "level": 1,
       "version": "1.1.1"
     },
     {
-      "package": "shell-quote",
+      "dependency": "shell-quote",
       "level": 1,
       "version": "1.7.3"
     },
     {
-      "package": "timers-browserify",
+      "dependency": "timers-browserify",
       "level": 1,
       "version": "1.4.2"
     },
     {
-      "package": "process",
-      "level": 2,
-      "version": "0.11.10"
-    },
-    {
-      "package": "tty-browserify",
+      "dependency": "tty-browserify",
       "level": 1,
       "version": "0.0.1"
     },
     {
-      "package": "url",
+      "dependency": "url",
       "level": 1,
       "version": "0.11.0"
     },
     {
-      "package": "punycode",
-      "level": 2,
-      "version": "1.3.2"
-    },
-    {
-      "package": "querystring",
+      "dependency": "querystring",
       "level": 2,
       "version": "0.2.0"
     },
     {
-      "package": "vm-browserify",
+      "dependency": "vm-browserify",
       "level": 1,
       "version": "1.1.2"
     },
     {
-      "package": "xtend",
-      "level": 1,
-      "version": "4.0.2"
-    },
-    {
-      "package": "util",
-      "level": 1,
-      "version": "0.12.4"
-    },
-    {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "is-arguments",
+      "dependency": "is-arguments",
       "level": 2,
       "version": "1.1.1"
     },
     {
-      "package": "call-bind",
+      "dependency": "call-bind",
       "level": 3,
       "version": "1.0.2"
     },
     {
-      "package": "get-intrinsic",
+      "dependency": "get-intrinsic",
       "level": 4,
       "version": "1.1.1"
     },
     {
-      "package": "function-bind",
-      "level": 5,
-      "version": "1.1.1"
-    },
-    {
-      "package": "has-symbols",
+      "dependency": "has-symbols",
       "level": 5,
       "version": "1.0.2"
     },
     {
-      "package": "has",
-      "level": 5,
-      "version": "1.0.3"
-    },
-    {
-      "package": "function-bind",
-      "level": 4,
-      "version": "1.1.1"
-    },
-    {
-      "package": "has-tostringtag",
+      "dependency": "has-tostringtag",
       "level": 3,
       "version": "1.0.0"
     },
     {
-      "package": "has-symbols",
-      "level": 4,
-      "version": "1.0.2"
-    },
-    {
-      "package": "is-generator-function",
+      "dependency": "is-generator-function",
       "level": 2,
       "version": "1.0.10"
     },
     {
-      "package": "has-tostringtag",
-      "level": 3,
-      "version": "1.0.0"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 2,
-      "version": "5.2.1"
-    },
-    {
-      "package": "is-typed-array",
+      "dependency": "is-typed-array",
       "level": 2,
       "version": "1.1.8"
     },
     {
-      "package": "available-typed-arrays",
+      "dependency": "available-typed-arrays",
       "level": 3,
       "version": "1.0.5"
     },
     {
-      "package": "call-bind",
-      "level": 3,
-      "version": "1.0.2"
-    },
-    {
-      "package": "foreach",
+      "dependency": "foreach",
       "level": 3,
       "version": "2.0.5"
     },
     {
-      "package": "has-tostringtag",
-      "level": 3,
-      "version": "1.0.0"
-    },
-    {
-      "package": "es-abstract",
+      "dependency": "es-abstract",
       "level": 3,
       "version": "1.19.1"
     },
     {
-      "package": "which-typed-array",
+      "dependency": "which-typed-array",
       "level": 2,
       "version": "1.1.7"
     },
     {
-      "package": "available-typed-arrays",
-      "level": 3,
-      "version": "1.0.5"
-    },
-    {
-      "package": "call-bind",
-      "level": 3,
-      "version": "1.0.2"
-    },
-    {
-      "package": "es-abstract",
-      "level": 3,
-      "version": "1.19.1"
-    },
-    {
-      "package": "call-bind",
-      "level": 4,
-      "version": "1.0.2"
-    },
-    {
-      "package": "es-to-primitive",
+      "dependency": "es-to-primitive",
       "level": 4,
       "version": "1.2.1"
     },
     {
-      "package": "is-date-object",
+      "dependency": "is-date-object",
       "level": 5,
       "version": "1.0.5"
     },
     {
-      "package": "has-tostringtag",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-symbol",
+      "dependency": "is-symbol",
       "level": 5,
       "version": "1.0.4"
     },
     {
-      "package": "has-symbols",
-      "level": 6,
-      "version": "1.0.2"
-    },
-    {
-      "package": "is-callable",
+      "dependency": "is-callable",
       "level": 5,
       "version": "1.2.4"
     },
     {
-      "package": "function-bind",
-      "level": 4,
-      "version": "1.1.1"
-    },
-    {
-      "package": "get-symbol-description",
+      "dependency": "get-symbol-description",
       "level": 4,
       "version": "1.0.0"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "get-intrinsic",
-      "level": 5,
-      "version": "1.1.1"
-    },
-    {
-      "package": "get-intrinsic",
-      "level": 4,
-      "version": "1.1.1"
-    },
-    {
-      "package": "has",
-      "level": 4,
-      "version": "1.0.3"
-    },
-    {
-      "package": "has-symbols",
-      "level": 4,
-      "version": "1.0.2"
-    },
-    {
-      "package": "is-negative-zero",
+      "dependency": "is-negative-zero",
       "level": 4,
       "version": "2.0.2"
     },
     {
-      "package": "is-shared-array-buffer",
+      "dependency": "is-shared-array-buffer",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "is-regex",
+      "dependency": "is-regex",
       "level": 4,
       "version": "1.1.4"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "has-tostringtag",
-      "level": 5,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-string",
+      "dependency": "is-string",
       "level": 4,
       "version": "1.0.7"
     },
     {
-      "package": "has-tostringtag",
-      "level": 5,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-weakref",
+      "dependency": "is-weakref",
       "level": 4,
       "version": "1.0.2"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "object-inspect",
+      "dependency": "object-inspect",
       "level": 4,
       "version": "1.12.0"
     },
     {
-      "package": "object.assign",
+      "dependency": "object.assign",
       "level": 4,
       "version": "4.1.2"
     },
     {
-      "package": "define-properties",
+      "dependency": "define-properties",
       "level": 5,
       "version": "1.1.3"
     },
     {
-      "package": "object-keys",
+      "dependency": "object-keys",
       "level": 6,
       "version": "1.1.1"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "has-symbols",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "object-keys",
-      "level": 5,
-      "version": "1.1.1"
-    },
-    {
-      "package": "string.prototype.trimend",
+      "dependency": "string.prototype.trimend",
       "level": 4,
       "version": "1.0.4"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "define-properties",
-      "level": 5,
-      "version": "1.1.3"
-    },
-    {
-      "package": "string.prototype.trimstart",
+      "dependency": "string.prototype.trimstart",
       "level": 4,
       "version": "1.0.4"
     },
     {
-      "package": "call-bind",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "define-properties",
-      "level": 5,
-      "version": "1.1.3"
-    },
-    {
-      "package": "internal-slot",
+      "dependency": "internal-slot",
       "level": 4,
       "version": "1.0.3"
     },
     {
-      "package": "get-intrinsic",
-      "level": 5,
-      "version": "1.1.1"
-    },
-    {
-      "package": "has",
-      "level": 5,
-      "version": "1.0.3"
-    },
-    {
-      "package": "side-channel",
+      "dependency": "side-channel",
       "level": 5,
       "version": "1.0.4"
     },
     {
-      "package": "call-bind",
-      "level": 6,
-      "version": "1.0.2"
-    },
-    {
-      "package": "get-intrinsic",
-      "level": 6,
-      "version": "1.1.1"
-    },
-    {
-      "package": "object-inspect",
-      "level": 6,
-      "version": "1.12.0"
-    },
-    {
-      "package": "is-callable",
-      "level": 4,
-      "version": "1.2.4"
-    },
-    {
-      "package": "object-keys",
-      "level": 4,
-      "version": "1.1.1"
-    },
-    {
-      "package": "unbox-primitive",
+      "dependency": "unbox-primitive",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "function-bind",
-      "level": 5,
-      "version": "1.1.1"
-    },
-    {
-      "package": "has-symbols",
+      "dependency": "which-boxed-primitive",
       "level": 5,
       "version": "1.0.2"
     },
     {
-      "package": "which-boxed-primitive",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "is-string",
-      "level": 6,
-      "version": "1.0.7"
-    },
-    {
-      "package": "is-symbol",
+      "dependency": "is-bigint",
       "level": 6,
       "version": "1.0.4"
     },
     {
-      "package": "is-bigint",
-      "level": 6,
-      "version": "1.0.4"
-    },
-    {
-      "package": "has-bigints",
+      "dependency": "has-bigints",
       "level": 7,
       "version": "1.0.1"
     },
     {
-      "package": "is-number-object",
+      "dependency": "is-number-object",
       "level": 6,
       "version": "1.0.6"
     },
     {
-      "package": "has-tostringtag",
-      "level": 7,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-boolean-object",
+      "dependency": "is-boolean-object",
       "level": 6,
       "version": "1.1.2"
     },
     {
-      "package": "call-bind",
-      "level": 7,
-      "version": "1.0.2"
-    },
-    {
-      "package": "has-tostringtag",
-      "level": 7,
-      "version": "1.0.0"
-    },
-    {
-      "package": "has-bigints",
-      "level": 5,
-      "version": "1.0.1"
-    },
-    {
-      "package": "foreach",
-      "level": 3,
-      "version": "2.0.5"
-    },
-    {
-      "package": "is-typed-array",
-      "level": 3,
-      "version": "1.1.8"
-    },
-    {
-      "package": "has-tostringtag",
-      "level": 3,
-      "version": "1.0.0"
-    },
-    {
-      "package": "syntax-error",
+      "dependency": "syntax-error",
       "level": 1,
       "version": "1.4.0"
     },
     {
-      "package": "acorn-node",
-      "level": 2,
-      "version": "1.8.2"
-    },
-    {
-      "package": "through2",
-      "level": 1,
-      "version": "2.0.5"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "xtend",
-      "level": 2,
-      "version": "4.0.2"
-    },
-    {
-      "package": "coffee-script",
+      "dependency": "coffee-script",
       "level": 1,
       "version": "1.10.0"
     },
     {
-      "package": "stream-browserify",
+      "dependency": "stream-browserify",
       "level": 1,
       "version": "3.0.0"
     },
     {
-      "package": "inherits",
-      "level": 2,
-      "version": "2.0.4"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "3.6.0"
-    },
-    {
-      "package": "isstream",
+      "dependency": "isstream",
       "level": 1,
       "version": "0.1.2"
     },
     {
-      "package": "backbone",
+      "dependency": "backbone",
       "level": 1,
       "version": "0.9.10"
     },
     {
-      "package": "underscore",
+      "dependency": "underscore",
       "level": 2,
       "version": "1.13.2"
     },
     {
-      "package": "browser-unpack",
+      "dependency": "browser-unpack",
       "level": 1,
       "version": "1.4.2"
     },
     {
-      "package": "concat-stream",
-      "level": 2,
-      "version": "1.6.2"
-    },
-    {
-      "package": "acorn-node",
-      "level": 2,
-      "version": "1.8.2"
-    },
-    {
-      "package": "minimist",
-      "level": 2,
-      "version": "1.2.5"
-    },
-    {
-      "package": "semver",
+      "dependency": "semver",
       "level": 1,
       "version": "5.7.1"
     },
     {
-      "package": "coffeeify",
+      "dependency": "coffeeify",
       "level": 1,
       "version": "1.1.0"
     },
     {
-      "package": "coffee-script",
-      "level": 2,
-      "version": "1.12.7"
-    },
-    {
-      "package": "convert-source-map",
-      "level": 2,
-      "version": "1.8.0"
-    },
-    {
-      "package": "safe-buffer",
-      "level": 3,
-      "version": "5.1.2"
-    },
-    {
-      "package": "through",
-      "level": 2,
-      "version": "2.3.8"
-    },
-    {
-      "package": "has-object-spread",
+      "dependency": "has-object-spread",
       "level": 1,
       "version": "1.0.0"
     },
     {
-      "package": "has-template-literals",
+      "dependency": "has-template-literals",
       "level": 1,
       "version": "1.0.1"
     },
     {
-      "package": "through",
-      "level": 1,
-      "version": "2.3.8"
-    },
-    {
-      "package": "make-generator-function",
+      "dependency": "make-generator-function",
       "level": 1,
       "version": "1.1.1"
     },
     {
-      "package": "seq",
+      "dependency": "seq",
       "level": 1,
       "version": "0.3.5"
     },
     {
-      "package": "hashish",
+      "dependency": "hashish",
       "level": 2,
       "version": "0.0.4"
     },
     {
-      "package": "traverse",
+      "dependency": "traverse",
       "level": 3,
       "version": "0.6.6"
     },
     {
-      "package": "chainsaw",
+      "dependency": "chainsaw",
       "level": 2,
       "version": "0.0.9"
     },
     {
-      "package": "traverse",
-      "level": 3,
-      "version": "0.3.9"
-    },
-    {
-      "package": "temp",
+      "dependency": "temp",
       "level": 1,
       "version": "0.8.3"
     },
     {
-      "package": "os-tmpdir",
+      "dependency": "os-tmpdir",
       "level": 2,
       "version": "1.0.2"
     },
     {
-      "package": "rimraf",
+      "dependency": "rimraf",
       "level": 2,
       "version": "2.2.8"
     },
     {
-      "package": "tap",
+      "dependency": "tap",
       "level": 1,
       "version": "10.7.3"
     },
     {
-      "package": "color-support",
+      "dependency": "color-support",
       "level": 2,
       "version": "1.1.3"
     },
     {
-      "package": "foreground-child",
+      "dependency": "foreground-child",
       "level": 2,
       "version": "1.5.6"
     },
     {
-      "package": "cross-spawn",
+      "dependency": "cross-spawn",
       "level": 3,
       "version": "4.0.2"
     },
     {
-      "package": "lru-cache",
+      "dependency": "lru-cache",
       "level": 4,
       "version": "4.1.5"
     },
     {
-      "package": "pseudomap",
+      "dependency": "pseudomap",
       "level": 5,
       "version": "1.0.2"
     },
     {
-      "package": "yallist",
+      "dependency": "yallist",
       "level": 5,
       "version": "2.1.2"
     },
     {
-      "package": "which",
+      "dependency": "which",
       "level": 4,
       "version": "1.3.1"
     },
     {
-      "package": "isexe",
+      "dependency": "isexe",
       "level": 5,
       "version": "2.0.0"
     },
     {
-      "package": "signal-exit",
+      "dependency": "signal-exit",
       "level": 3,
       "version": "3.0.7"
     },
     {
-      "package": "bluebird",
+      "dependency": "bluebird",
       "level": 2,
       "version": "3.7.2"
     },
     {
-      "package": "clean-yaml-object",
+      "dependency": "clean-yaml-object",
       "level": 2,
       "version": "0.1.0"
     },
     {
-      "package": "bind-obj-methods",
+      "dependency": "bind-obj-methods",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "isexe",
-      "level": 2,
-      "version": "2.0.0"
-    },
-    {
-      "package": "glob",
-      "level": 2,
-      "version": "7.2.0"
-    },
-    {
-      "package": "fs-exists-cached",
+      "dependency": "fs-exists-cached",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "opener",
+      "dependency": "opener",
       "level": 2,
       "version": "1.5.2"
     },
     {
-      "package": "os-homedir",
+      "dependency": "os-homedir",
       "level": 2,
       "version": "1.0.2"
     },
     {
-      "package": "coveralls",
+      "dependency": "coveralls",
       "level": 2,
       "version": "2.13.3"
     },
     {
-      "package": "minimist",
-      "level": 3,
-      "version": "1.2.0"
-    },
-    {
-      "package": "js-yaml",
+      "dependency": "js-yaml",
       "level": 3,
       "version": "3.6.1"
     },
     {
-      "package": "esprima",
+      "dependency": "esprima",
       "level": 4,
       "version": "2.7.3"
     },
     {
-      "package": "argparse",
+      "dependency": "argparse",
       "level": 4,
       "version": "1.0.10"
     },
     {
-      "package": "request",
+      "dependency": "request",
       "level": 3,
       "version": "2.79.0"
     },
     {
-      "package": "aws-sign2",
+      "dependency": "aws-sign2",
       "level": 4,
       "version": "0.6.0"
     },
     {
-      "package": "aws4",
+      "dependency": "aws4",
       "level": 4,
       "version": "1.11.0"
     },
     {
-      "package": "caseless",
+      "dependency": "caseless",
       "level": 4,
       "version": "0.11.0"
     },
     {
-      "package": "combined-stream",
+      "dependency": "combined-stream",
       "level": 4,
       "version": "1.0.8"
     },
     {
-      "package": "delayed-stream",
+      "dependency": "delayed-stream",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "extend",
+      "dependency": "extend",
       "level": 4,
       "version": "3.0.2"
     },
     {
-      "package": "forever-agent",
+      "dependency": "forever-agent",
       "level": 4,
       "version": "0.6.1"
     },
     {
-      "package": "form-data",
+      "dependency": "form-data",
       "level": 4,
       "version": "2.1.4"
     },
     {
-      "package": "asynckit",
+      "dependency": "asynckit",
       "level": 5,
       "version": "0.4.0"
     },
     {
-      "package": "mime-types",
+      "dependency": "mime-types",
       "level": 5,
       "version": "2.1.34"
     },
     {
-      "package": "combined-stream",
-      "level": 5,
-      "version": "1.0.8"
-    },
-    {
-      "package": "http-signature",
+      "dependency": "http-signature",
       "level": 4,
       "version": "1.1.1"
     },
     {
-      "package": "assert-plus",
+      "dependency": "assert-plus",
       "level": 5,
       "version": "0.2.0"
     },
     {
-      "package": "sshpk",
+      "dependency": "sshpk",
       "level": 5,
       "version": "1.17.0"
     },
     {
-      "package": "asn1",
+      "dependency": "asn1",
       "level": 6,
       "version": "0.2.6"
     },
     {
-      "package": "safer-buffer",
-      "level": 7,
-      "version": "2.1.2"
-    },
-    {
-      "package": "assert-plus",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "dashdash",
+      "dependency": "dashdash",
       "level": 6,
       "version": "1.14.1"
     },
     {
-      "package": "assert-plus",
-      "level": 7,
-      "version": "1.0.0"
-    },
-    {
-      "package": "getpass",
+      "dependency": "getpass",
       "level": 6,
       "version": "0.1.7"
     },
     {
-      "package": "assert-plus",
-      "level": 7,
-      "version": "1.0.0"
-    },
-    {
-      "package": "safer-buffer",
-      "level": 6,
-      "version": "2.1.2"
-    },
-    {
-      "package": "jsbn",
+      "dependency": "jsbn",
       "level": 6,
       "version": "0.1.1"
     },
     {
-      "package": "tweetnacl",
+      "dependency": "tweetnacl",
       "level": 6,
       "version": "0.14.5"
     },
     {
-      "package": "ecc-jsbn",
+      "dependency": "ecc-jsbn",
       "level": 6,
       "version": "0.1.2"
     },
     {
-      "package": "safer-buffer",
-      "level": 7,
-      "version": "2.1.2"
-    },
-    {
-      "package": "jsbn",
-      "level": 7,
-      "version": "0.1.1"
-    },
-    {
-      "package": "bcrypt-pbkdf",
+      "dependency": "bcrypt-pbkdf",
       "level": 6,
       "version": "1.0.2"
     },
     {
-      "package": "tweetnacl",
-      "level": 7,
-      "version": "0.14.5"
-    },
-    {
-      "package": "jsprim",
+      "dependency": "jsprim",
       "level": 5,
       "version": "1.4.2"
     },
     {
-      "package": "extsprintf",
+      "dependency": "extsprintf",
       "level": 6,
       "version": "1.3.0"
     },
     {
-      "package": "json-schema",
+      "dependency": "json-schema",
       "level": 6,
       "version": "0.4.0"
     },
     {
-      "package": "verror",
+      "dependency": "verror",
       "level": 6,
       "version": "1.10.0"
     },
     {
-      "package": "assert-plus",
-      "level": 7,
-      "version": "1.0.0"
-    },
-    {
-      "package": "core-util-is",
-      "level": 7,
-      "version": "1.0.2"
-    },
-    {
-      "package": "extsprintf",
-      "level": 7,
-      "version": "1.4.1"
-    },
-    {
-      "package": "assert-plus",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-typedarray",
+      "dependency": "is-typedarray",
       "level": 4,
       "version": "1.0.0"
     },
     {
-      "package": "isstream",
-      "level": 4,
-      "version": "0.1.2"
-    },
-    {
-      "package": "hawk",
+      "dependency": "hawk",
       "level": 4,
       "version": "3.1.3"
     },
     {
-      "package": "boom",
+      "dependency": "boom",
       "level": 5,
       "version": "2.10.1"
     },
     {
-      "package": "hoek",
+      "dependency": "hoek",
       "level": 6,
       "version": "2.16.3"
     },
     {
-      "package": "sntp",
+      "dependency": "sntp",
       "level": 5,
       "version": "1.0.9"
     },
     {
-      "package": "hoek",
-      "level": 6,
-      "version": "2.16.3"
-    },
-    {
-      "package": "cryptiles",
+      "dependency": "cryptiles",
       "level": 5,
       "version": "2.0.5"
     },
     {
-      "package": "boom",
-      "level": 6,
-      "version": "2.10.1"
-    },
-    {
-      "package": "hoek",
-      "level": 5,
-      "version": "2.16.3"
-    },
-    {
-      "package": "mime-types",
-      "level": 4,
-      "version": "2.1.34"
-    },
-    {
-      "package": "mime-db",
+      "dependency": "mime-db",
       "level": 5,
       "version": "1.51.0"
     },
     {
-      "package": "stringstream",
+      "dependency": "stringstream",
       "level": 4,
       "version": "0.0.6"
     },
     {
-      "package": "tunnel-agent",
+      "dependency": "tunnel-agent",
       "level": 4,
       "version": "0.4.3"
     },
     {
-      "package": "json-stringify-safe",
+      "dependency": "json-stringify-safe",
       "level": 4,
       "version": "5.0.1"
     },
     {
-      "package": "qs",
+      "dependency": "qs",
       "level": 4,
       "version": "6.3.3"
     },
     {
-      "package": "oauth-sign",
+      "dependency": "oauth-sign",
       "level": 4,
       "version": "0.8.2"
     },
     {
-      "package": "har-validator",
+      "dependency": "har-validator",
       "level": 4,
       "version": "2.0.6"
     },
     {
-      "package": "chalk",
+      "dependency": "chalk",
       "level": 5,
       "version": "1.1.3"
     },
     {
-      "package": "escape-string-regexp",
+      "dependency": "escape-string-regexp",
       "level": 6,
       "version": "1.0.5"
     },
     {
-      "package": "has-ansi",
+      "dependency": "has-ansi",
       "level": 6,
       "version": "2.0.0"
     },
     {
-      "package": "ansi-regex",
+      "dependency": "ansi-regex",
       "level": 7,
       "version": "2.1.1"
     },
     {
-      "package": "supports-color",
+      "dependency": "supports-color",
       "level": 6,
       "version": "2.0.0"
     },
     {
-      "package": "strip-ansi",
+      "dependency": "strip-ansi",
       "level": 6,
       "version": "3.0.1"
     },
     {
-      "package": "ansi-styles",
+      "dependency": "ansi-styles",
       "level": 6,
       "version": "2.2.1"
     },
     {
-      "package": "pinkie-promise",
+      "dependency": "pinkie-promise",
       "level": 5,
       "version": "2.0.1"
     },
     {
-      "package": "pinkie",
+      "dependency": "pinkie",
       "level": 6,
       "version": "2.0.4"
     },
     {
-      "package": "commander",
+      "dependency": "commander",
       "level": 5,
       "version": "2.20.3"
     },
     {
-      "package": "is-my-json-valid",
+      "dependency": "is-my-json-valid",
       "level": 5,
       "version": "2.20.6"
     },
     {
-      "package": "generate-object-property",
+      "dependency": "generate-object-property",
       "level": 6,
       "version": "1.2.0"
     },
     {
-      "package": "is-property",
+      "dependency": "is-property",
       "level": 7,
       "version": "1.0.2"
     },
     {
-      "package": "is-my-ip-valid",
+      "dependency": "is-my-ip-valid",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "jsonpointer",
+      "dependency": "jsonpointer",
       "level": 6,
       "version": "5.0.0"
     },
     {
-      "package": "xtend",
-      "level": 6,
-      "version": "4.0.2"
-    },
-    {
-      "package": "generate-function",
+      "dependency": "generate-function",
       "level": 6,
       "version": "2.3.1"
     },
     {
-      "package": "is-property",
-      "level": 7,
-      "version": "1.0.2"
-    },
-    {
-      "package": "tough-cookie",
+      "dependency": "tough-cookie",
       "level": 4,
       "version": "2.3.4"
     },
     {
-      "package": "punycode",
-      "level": 5,
-      "version": "1.4.1"
-    },
-    {
-      "package": "uuid",
+      "dependency": "uuid",
       "level": 4,
       "version": "3.4.0"
     },
     {
-      "package": "lcov-parse",
+      "dependency": "lcov-parse",
       "level": 3,
       "version": "0.0.10"
     },
     {
-      "package": "log-driver",
+      "dependency": "log-driver",
       "level": 3,
       "version": "1.2.5"
     },
     {
-      "package": "js-yaml",
-      "level": 2,
-      "version": "3.14.1"
-    },
-    {
-      "package": "argparse",
-      "level": 3,
-      "version": "1.0.10"
-    },
-    {
-      "package": "sprintf-js",
+      "dependency": "sprintf-js",
       "level": 4,
       "version": "1.0.3"
     },
     {
-      "package": "esprima",
-      "level": 3,
-      "version": "4.0.1"
-    },
-    {
-      "package": "signal-exit",
-      "level": 2,
-      "version": "3.0.7"
-    },
-    {
-      "package": "readable-stream",
-      "level": 2,
-      "version": "2.3.7"
-    },
-    {
-      "package": "stack-utils",
+      "dependency": "stack-utils",
       "level": 2,
       "version": "1.0.5"
     },
     {
-      "package": "escape-string-regexp",
-      "level": 3,
-      "version": "2.0.0"
-    },
-    {
-      "package": "source-map-support",
+      "dependency": "source-map-support",
       "level": 2,
       "version": "0.4.18"
     },
     {
-      "package": "source-map",
-      "level": 3,
-      "version": "0.5.7"
-    },
-    {
-      "package": "own-or",
+      "dependency": "own-or",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "own-or-env",
+      "dependency": "own-or-env",
       "level": 2,
       "version": "1.0.2"
     },
     {
-      "package": "own-or",
-      "level": 3,
-      "version": "1.0.0"
-    },
-    {
-      "package": "tap-mocha-reporter",
+      "dependency": "tap-mocha-reporter",
       "level": 2,
       "version": "3.0.9"
     },
     {
-      "package": "color-support",
-      "level": 3,
-      "version": "1.1.3"
-    },
-    {
-      "package": "escape-string-regexp",
-      "level": 3,
-      "version": "1.0.5"
-    },
-    {
-      "package": "diff",
+      "dependency": "diff",
       "level": 3,
       "version": "1.4.0"
     },
     {
-      "package": "debug",
+      "dependency": "debug",
       "level": 3,
       "version": "2.6.9"
     },
     {
-      "package": "ms",
+      "dependency": "ms",
       "level": 4,
       "version": "2.0.0"
     },
     {
-      "package": "glob",
-      "level": 3,
-      "version": "7.2.0"
-    },
-    {
-      "package": "readable-stream",
-      "level": 3,
-      "version": "2.3.7"
-    },
-    {
-      "package": "unicode-length",
+      "dependency": "unicode-length",
       "level": 3,
       "version": "1.0.3"
     },
     {
-      "package": "punycode",
-      "level": 4,
-      "version": "1.4.1"
-    },
-    {
-      "package": "strip-ansi",
-      "level": 4,
-      "version": "3.0.1"
-    },
-    {
-      "package": "ansi-regex",
-      "level": 5,
-      "version": "2.1.1"
-    },
-    {
-      "package": "js-yaml",
-      "level": 3,
-      "version": "3.14.1"
-    },
-    {
-      "package": "tap-parser",
+      "dependency": "tap-parser",
       "level": 3,
       "version": "5.4.0"
     },
     {
-      "package": "nyc",
+      "dependency": "nyc",
       "level": 2,
       "version": "11.9.0"
     },
     {
-      "package": "archy",
+      "dependency": "archy",
       "level": 3,
       "version": "1.0.0"
     },
     {
-      "package": "arrify",
+      "dependency": "arrify",
       "level": 3,
       "version": "1.0.1"
     },
     {
-      "package": "convert-source-map",
-      "level": 3,
-      "version": "1.8.0"
-    },
-    {
-      "package": "caching-transform",
+      "dependency": "caching-transform",
       "level": 3,
       "version": "1.0.1"
     },
     {
-      "package": "write-file-atomic",
+      "dependency": "write-file-atomic",
       "level": 4,
       "version": "1.3.4"
     },
     {
-      "package": "graceful-fs",
+      "dependency": "graceful-fs",
       "level": 5,
       "version": "4.2.9"
     },
     {
-      "package": "imurmurhash",
+      "dependency": "imurmurhash",
       "level": 5,
       "version": "0.1.4"
     },
     {
-      "package": "slide",
+      "dependency": "slide",
       "level": 5,
       "version": "1.1.6"
     },
     {
-      "package": "mkdirp",
+      "dependency": "mkdirp",
       "level": 4,
       "version": "0.5.5"
     },
     {
-      "package": "md5-hex",
+      "dependency": "md5-hex",
       "level": 4,
       "version": "1.3.0"
     },
     {
-      "package": "default-require-extensions",
+      "dependency": "default-require-extensions",
       "level": 3,
       "version": "1.0.0"
     },
     {
-      "package": "strip-bom",
+      "dependency": "strip-bom",
       "level": 4,
       "version": "2.0.0"
     },
     {
-      "package": "is-utf8",
+      "dependency": "is-utf8",
       "level": 5,
       "version": "0.2.1"
     },
     {
-      "package": "find-cache-dir",
+      "dependency": "find-cache-dir",
       "level": 3,
       "version": "0.1.1"
     },
     {
-      "package": "mkdirp",
-      "level": 4,
-      "version": "0.5.5"
-    },
-    {
-      "package": "commondir",
+      "dependency": "commondir",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "pkg-dir",
+      "dependency": "pkg-dir",
       "level": 4,
       "version": "1.0.0"
     },
     {
-      "package": "find-up",
+      "dependency": "find-up",
       "level": 5,
       "version": "1.1.2"
     },
     {
-      "package": "path-exists",
+      "dependency": "path-exists",
       "level": 6,
       "version": "2.1.0"
     },
     {
-      "package": "pinkie-promise",
-      "level": 7,
-      "version": "2.0.1"
-    },
-    {
-      "package": "pinkie-promise",
-      "level": 6,
-      "version": "2.0.1"
-    },
-    {
-      "package": "find-up",
-      "level": 3,
-      "version": "2.1.0"
-    },
-    {
-      "package": "locate-path",
+      "dependency": "locate-path",
       "level": 4,
       "version": "2.0.0"
     },
     {
-      "package": "p-locate",
+      "dependency": "p-locate",
       "level": 5,
       "version": "2.0.0"
     },
     {
-      "package": "p-limit",
+      "dependency": "p-limit",
       "level": 6,
       "version": "1.3.0"
     },
     {
-      "package": "p-try",
+      "dependency": "p-try",
       "level": 7,
       "version": "1.0.0"
     },
     {
-      "package": "path-exists",
-      "level": 5,
-      "version": "3.0.0"
-    },
-    {
-      "package": "foreground-child",
-      "level": 3,
-      "version": "1.5.6"
-    },
-    {
-      "package": "glob",
-      "level": 3,
-      "version": "7.2.0"
-    },
-    {
-      "package": "istanbul-lib-hook",
+      "dependency": "istanbul-lib-hook",
       "level": 3,
       "version": "1.2.2"
     },
     {
-      "package": "append-transform",
+      "dependency": "append-transform",
       "level": 4,
       "version": "0.4.0"
     },
     {
-      "package": "default-require-extensions",
-      "level": 5,
-      "version": "1.0.0"
-    },
-    {
-      "package": "istanbul-lib-report",
+      "dependency": "istanbul-lib-report",
       "level": 3,
       "version": "1.1.5"
     },
     {
-      "package": "istanbul-lib-coverage",
+      "dependency": "istanbul-lib-coverage",
       "level": 4,
       "version": "1.2.1"
     },
     {
-      "package": "path-parse",
-      "level": 4,
-      "version": "1.0.7"
-    },
-    {
-      "package": "mkdirp",
-      "level": 4,
-      "version": "0.5.5"
-    },
-    {
-      "package": "supports-color",
-      "level": 4,
-      "version": "3.2.3"
-    },
-    {
-      "package": "has-flag",
+      "dependency": "has-flag",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "debug-log",
+      "dependency": "debug-log",
       "level": 3,
       "version": "1.0.1"
     },
     {
-      "package": "istanbul-lib-source-maps",
+      "dependency": "istanbul-lib-source-maps",
       "level": 3,
       "version": "1.2.6"
     },
     {
-      "package": "istanbul-lib-coverage",
-      "level": 4,
-      "version": "1.2.1"
-    },
-    {
-      "package": "debug",
-      "level": 4,
-      "version": "3.2.7"
-    },
-    {
-      "package": "ms",
-      "level": 5,
-      "version": "2.1.3"
-    },
-    {
-      "package": "source-map",
-      "level": 4,
-      "version": "0.5.7"
-    },
-    {
-      "package": "rimraf",
-      "level": 4,
-      "version": "2.7.1"
-    },
-    {
-      "package": "mkdirp",
-      "level": 4,
-      "version": "0.5.5"
-    },
-    {
-      "package": "merge-source-map",
+      "dependency": "merge-source-map",
       "level": 3,
       "version": "1.1.0"
     },
     {
-      "package": "source-map",
-      "level": 4,
-      "version": "0.6.1"
-    },
-    {
-      "package": "istanbul-reports",
+      "dependency": "istanbul-reports",
       "level": 3,
       "version": "1.5.1"
     },
     {
-      "package": "handlebars",
+      "dependency": "handlebars",
       "level": 4,
       "version": "4.7.7"
     },
     {
-      "package": "minimist",
-      "level": 5,
-      "version": "1.2.5"
-    },
-    {
-      "package": "wordwrap",
+      "dependency": "wordwrap",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "neo-async",
+      "dependency": "neo-async",
       "level": 5,
       "version": "2.6.2"
     },
     {
-      "package": "uglify-js",
+      "dependency": "uglify-js",
       "level": 5,
       "version": "3.15.2"
     },
     {
-      "package": "source-map",
-      "level": 5,
-      "version": "0.6.1"
-    },
-    {
-      "package": "istanbul-lib-coverage",
-      "level": 3,
-      "version": "1.2.1"
-    },
-    {
-      "package": "resolve-from",
+      "dependency": "resolve-from",
       "level": 3,
       "version": "2.0.0"
     },
     {
-      "package": "istanbul-lib-instrument",
+      "dependency": "istanbul-lib-instrument",
       "level": 3,
       "version": "1.10.2"
     },
     {
-      "package": "babel-generator",
+      "dependency": "babel-generator",
       "level": 4,
       "version": "6.26.1"
     },
     {
-      "package": "babel-runtime",
+      "dependency": "babel-runtime",
       "level": 5,
       "version": "6.26.0"
     },
     {
-      "package": "core-js",
+      "dependency": "core-js",
       "level": 6,
       "version": "2.6.12"
     },
     {
-      "package": "regenerator-runtime",
+      "dependency": "regenerator-runtime",
       "level": 6,
       "version": "0.11.1"
     },
     {
-      "package": "babel-types",
+      "dependency": "babel-types",
       "level": 5,
       "version": "6.26.0"
     },
     {
-      "package": "detect-indent",
+      "dependency": "detect-indent",
       "level": 5,
       "version": "4.0.0"
     },
     {
-      "package": "repeating",
+      "dependency": "repeating",
       "level": 6,
       "version": "2.0.1"
     },
     {
-      "package": "is-finite",
+      "dependency": "is-finite",
       "level": 7,
       "version": "1.1.0"
     },
     {
-      "package": "babel-messages",
+      "dependency": "babel-messages",
       "level": 5,
       "version": "6.23.0"
     },
     {
-      "package": "babel-runtime",
-      "level": 6,
-      "version": "6.26.0"
-    },
-    {
-      "package": "trim-right",
+      "dependency": "trim-right",
       "level": 5,
       "version": "1.0.1"
     },
     {
-      "package": "source-map",
-      "level": 5,
-      "version": "0.5.7"
-    },
-    {
-      "package": "lodash",
+      "dependency": "lodash",
       "level": 5,
       "version": "4.17.21"
     },
     {
-      "package": "jsesc",
+      "dependency": "jsesc",
       "level": 5,
       "version": "1.3.0"
     },
     {
-      "package": "babel-template",
+      "dependency": "babel-template",
       "level": 4,
       "version": "6.26.0"
     },
     {
-      "package": "babel-runtime",
+      "dependency": "babel-traverse",
       "level": 5,
       "version": "6.26.0"
     },
     {
-      "package": "babel-types",
-      "level": 5,
-      "version": "6.26.0"
-    },
-    {
-      "package": "babel-traverse",
-      "level": 5,
-      "version": "6.26.0"
-    },
-    {
-      "package": "babylon",
+      "dependency": "babylon",
       "level": 5,
       "version": "6.18.0"
     },
     {
-      "package": "lodash",
-      "level": 5,
-      "version": "4.17.21"
-    },
-    {
-      "package": "babel-traverse",
-      "level": 4,
-      "version": "6.26.0"
-    },
-    {
-      "package": "babel-messages",
-      "level": 5,
-      "version": "6.23.0"
-    },
-    {
-      "package": "babel-runtime",
+      "dependency": "babel-code-frame",
       "level": 5,
       "version": "6.26.0"
     },
     {
-      "package": "babel-types",
-      "level": 5,
-      "version": "6.26.0"
-    },
-    {
-      "package": "babel-code-frame",
-      "level": 5,
-      "version": "6.26.0"
-    },
-    {
-      "package": "esutils",
+      "dependency": "esutils",
       "level": 6,
       "version": "2.0.3"
     },
     {
-      "package": "chalk",
-      "level": 6,
-      "version": "1.1.3"
-    },
-    {
-      "package": "js-tokens",
+      "dependency": "js-tokens",
       "level": 6,
       "version": "3.0.2"
     },
     {
-      "package": "babylon",
-      "level": 5,
-      "version": "6.18.0"
-    },
-    {
-      "package": "debug",
-      "level": 5,
-      "version": "2.6.9"
-    },
-    {
-      "package": "invariant",
+      "dependency": "invariant",
       "level": 5,
       "version": "2.2.4"
     },
     {
-      "package": "loose-envify",
+      "dependency": "loose-envify",
       "level": 6,
       "version": "1.4.0"
     },
     {
-      "package": "js-tokens",
-      "level": 7,
-      "version": "4.0.0"
-    },
-    {
-      "package": "lodash",
-      "level": 5,
-      "version": "4.17.21"
-    },
-    {
-      "package": "globals",
+      "dependency": "globals",
       "level": 5,
       "version": "9.18.0"
     },
     {
-      "package": "istanbul-lib-coverage",
-      "level": 4,
-      "version": "1.2.1"
-    },
-    {
-      "package": "babel-types",
-      "level": 4,
-      "version": "6.26.0"
-    },
-    {
-      "package": "babel-runtime",
-      "level": 5,
-      "version": "6.26.0"
-    },
-    {
-      "package": "lodash",
-      "level": 5,
-      "version": "4.17.21"
-    },
-    {
-      "package": "to-fast-properties",
+      "dependency": "to-fast-properties",
       "level": 5,
       "version": "1.0.3"
     },
     {
-      "package": "esutils",
-      "level": 5,
-      "version": "2.0.3"
-    },
-    {
-      "package": "babylon",
-      "level": 4,
-      "version": "6.18.0"
-    },
-    {
-      "package": "semver",
-      "level": 4,
-      "version": "5.7.1"
-    },
-    {
-      "package": "rimraf",
-      "level": 3,
-      "version": "2.7.1"
-    },
-    {
-      "package": "glob",
-      "level": 4,
-      "version": "7.2.0"
-    },
-    {
-      "package": "micromatch",
+      "dependency": "micromatch",
       "level": 3,
       "version": "3.1.10"
     },
     {
-      "package": "define-property",
+      "dependency": "define-property",
       "level": 4,
       "version": "2.0.2"
     },
     {
-      "package": "isobject",
+      "dependency": "isobject",
       "level": 5,
       "version": "3.0.1"
     },
     {
-      "package": "is-descriptor",
+      "dependency": "is-descriptor",
       "level": 5,
       "version": "1.0.2"
     },
     {
-      "package": "is-accessor-descriptor",
+      "dependency": "is-accessor-descriptor",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "kind-of",
+      "dependency": "kind-of",
       "level": 7,
       "version": "6.0.3"
     },
     {
-      "package": "kind-of",
-      "level": 6,
-      "version": "6.0.3"
-    },
-    {
-      "package": "is-data-descriptor",
+      "dependency": "is-data-descriptor",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "kind-of",
-      "level": 7,
-      "version": "6.0.3"
-    },
-    {
-      "package": "extend-shallow",
+      "dependency": "extend-shallow",
       "level": 4,
       "version": "3.0.2"
     },
     {
-      "package": "assign-symbols",
+      "dependency": "assign-symbols",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "is-extendable",
+      "dependency": "is-extendable",
       "level": 5,
       "version": "1.0.1"
     },
     {
-      "package": "is-plain-object",
+      "dependency": "is-plain-object",
       "level": 6,
       "version": "2.0.4"
     },
     {
-      "package": "isobject",
-      "level": 7,
-      "version": "3.0.1"
-    },
-    {
-      "package": "extglob",
+      "dependency": "extglob",
       "level": 4,
       "version": "2.0.4"
     },
     {
-      "package": "array-unique",
+      "dependency": "array-unique",
       "level": 5,
       "version": "0.3.2"
     },
     {
-      "package": "define-property",
-      "level": 5,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-descriptor",
-      "level": 6,
-      "version": "1.0.2"
-    },
-    {
-      "package": "expand-brackets",
+      "dependency": "expand-brackets",
       "level": 5,
       "version": "2.1.4"
     },
     {
-      "package": "define-property",
-      "level": 6,
-      "version": "0.2.5"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 6,
-      "version": "2.0.1"
-    },
-    {
-      "package": "posix-character-classes",
+      "dependency": "posix-character-classes",
       "level": 6,
       "version": "0.1.1"
     },
     {
-      "package": "to-regex",
+      "dependency": "to-regex",
       "level": 6,
       "version": "3.0.2"
     },
     {
-      "package": "snapdragon",
+      "dependency": "snapdragon",
       "level": 6,
       "version": "0.8.2"
     },
     {
-      "package": "debug",
-      "level": 6,
-      "version": "2.6.9"
-    },
-    {
-      "package": "regex-not",
+      "dependency": "regex-not",
       "level": 6,
       "version": "1.0.2"
     },
     {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "2.0.1"
-    },
-    {
-      "package": "is-extendable",
-      "level": 6,
-      "version": "0.1.1"
-    },
-    {
-      "package": "fragment-cache",
+      "dependency": "fragment-cache",
       "level": 5,
       "version": "0.2.1"
     },
     {
-      "package": "regex-not",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "to-regex",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "snapdragon",
-      "level": 5,
-      "version": "0.8.2"
-    },
-    {
-      "package": "nanomatch",
+      "dependency": "nanomatch",
       "level": 4,
       "version": "1.2.13"
     },
     {
-      "package": "arr-diff",
+      "dependency": "arr-diff",
       "level": 5,
       "version": "4.0.0"
     },
     {
-      "package": "array-unique",
-      "level": 5,
-      "version": "0.3.2"
-    },
-    {
-      "package": "define-property",
-      "level": 5,
-      "version": "2.0.2"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "fragment-cache",
-      "level": 5,
-      "version": "0.2.1"
-    },
-    {
-      "package": "object.pick",
+      "dependency": "object.pick",
       "level": 5,
       "version": "1.3.0"
     },
     {
-      "package": "kind-of",
-      "level": 5,
-      "version": "6.0.3"
-    },
-    {
-      "package": "regex-not",
+      "dependency": "is-windows",
       "level": 5,
       "version": "1.0.2"
     },
     {
-      "package": "to-regex",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "snapdragon",
-      "level": 5,
-      "version": "0.8.2"
-    },
-    {
-      "package": "is-windows",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "arr-diff",
-      "level": 4,
-      "version": "4.0.0"
-    },
-    {
-      "package": "braces",
+      "dependency": "braces",
       "level": 4,
       "version": "2.3.2"
     },
     {
-      "package": "arr-flatten",
+      "dependency": "arr-flatten",
       "level": 5,
       "version": "1.1.0"
     },
     {
-      "package": "array-unique",
-      "level": 5,
-      "version": "0.3.2"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "2.0.1"
-    },
-    {
-      "package": "isobject",
-      "level": 5,
-      "version": "3.0.1"
-    },
-    {
-      "package": "fill-range",
+      "dependency": "fill-range",
       "level": 5,
       "version": "4.0.0"
     },
     {
-      "package": "extend-shallow",
-      "level": 6,
-      "version": "2.0.1"
-    },
-    {
-      "package": "repeat-string",
+      "dependency": "repeat-string",
       "level": 6,
       "version": "1.6.1"
     },
     {
-      "package": "is-number",
+      "dependency": "is-number",
       "level": 6,
       "version": "3.0.0"
     },
     {
-      "package": "kind-of",
-      "level": 7,
-      "version": "3.2.2"
-    },
-    {
-      "package": "to-regex-range",
+      "dependency": "to-regex-range",
       "level": 6,
       "version": "2.1.1"
     },
     {
-      "package": "is-number",
-      "level": 7,
-      "version": "3.0.0"
-    },
-    {
-      "package": "repeat-string",
-      "level": 7,
-      "version": "1.6.1"
-    },
-    {
-      "package": "repeat-element",
+      "dependency": "repeat-element",
       "level": 5,
       "version": "1.1.4"
     },
     {
-      "package": "split-string",
+      "dependency": "split-string",
       "level": 5,
       "version": "3.1.0"
     },
     {
-      "package": "extend-shallow",
-      "level": 6,
-      "version": "3.0.2"
-    },
-    {
-      "package": "snapdragon",
-      "level": 5,
-      "version": "0.8.2"
-    },
-    {
-      "package": "to-regex",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "snapdragon-node",
+      "dependency": "snapdragon-node",
       "level": 5,
       "version": "2.1.1"
     },
     {
-      "package": "define-property",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "isobject",
+      "dependency": "snapdragon-util",
       "level": 6,
       "version": "3.0.1"
     },
     {
-      "package": "snapdragon-util",
-      "level": 6,
-      "version": "3.0.1"
-    },
-    {
-      "package": "kind-of",
-      "level": 7,
-      "version": "3.2.2"
-    },
-    {
-      "package": "regex-not",
-      "level": 4,
-      "version": "1.0.2"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "safe-regex",
+      "dependency": "safe-regex",
       "level": 5,
       "version": "1.1.0"
     },
     {
-      "package": "ret",
+      "dependency": "ret",
       "level": 6,
       "version": "0.1.15"
     },
     {
-      "package": "snapdragon",
-      "level": 4,
-      "version": "0.8.2"
-    },
-    {
-      "package": "define-property",
-      "level": 5,
-      "version": "0.2.5"
-    },
-    {
-      "package": "is-descriptor",
-      "level": 6,
-      "version": "0.1.6"
-    },
-    {
-      "package": "is-accessor-descriptor",
-      "level": 7,
-      "version": "0.1.6"
-    },
-    {
-      "package": "kind-of",
-      "level": 8,
-      "version": "3.2.2"
-    },
-    {
-      "package": "is-data-descriptor",
-      "level": 7,
-      "version": "0.1.4"
-    },
-    {
-      "package": "kind-of",
-      "level": 8,
-      "version": "3.2.2"
-    },
-    {
-      "package": "kind-of",
-      "level": 7,
-      "version": "5.1.0"
-    },
-    {
-      "package": "map-cache",
+      "dependency": "map-cache",
       "level": 5,
       "version": "0.2.2"
     },
     {
-      "package": "source-map-resolve",
+      "dependency": "source-map-resolve",
       "level": 5,
       "version": "0.5.3"
     },
     {
-      "package": "atob",
+      "dependency": "atob",
       "level": 6,
       "version": "2.1.2"
     },
     {
-      "package": "decode-uri-component",
+      "dependency": "decode-uri-component",
       "level": 6,
       "version": "0.2.0"
     },
     {
-      "package": "resolve-url",
+      "dependency": "resolve-url",
       "level": 6,
       "version": "0.2.1"
     },
     {
-      "package": "source-map-url",
+      "dependency": "source-map-url",
       "level": 6,
       "version": "0.4.1"
     },
     {
-      "package": "urix",
+      "dependency": "urix",
       "level": 6,
       "version": "0.1.0"
     },
     {
-      "package": "base",
+      "dependency": "base",
       "level": 5,
       "version": "0.11.2"
     },
     {
-      "package": "cache-base",
+      "dependency": "cache-base",
       "level": 6,
       "version": "1.0.1"
     },
     {
-      "package": "component-emitter",
+      "dependency": "component-emitter",
       "level": 7,
       "version": "1.3.0"
     },
     {
-      "package": "collection-visit",
+      "dependency": "collection-visit",
       "level": 7,
       "version": "1.0.0"
     },
     {
-      "package": "map-visit",
+      "dependency": "map-visit",
       "level": 8,
       "version": "1.0.0"
     },
     {
-      "package": "object-visit",
+      "dependency": "object-visit",
       "level": 9,
       "version": "1.0.1"
     },
     {
-      "package": "object-visit",
-      "level": 8,
-      "version": "1.0.1"
-    },
-    {
-      "package": "isobject",
-      "level": 9,
-      "version": "3.0.1"
-    },
-    {
-      "package": "has-value",
+      "dependency": "has-value",
       "level": 7,
       "version": "1.0.0"
     },
     {
-      "package": "get-value",
+      "dependency": "get-value",
       "level": 8,
       "version": "2.0.6"
     },
     {
-      "package": "isobject",
-      "level": 8,
-      "version": "3.0.1"
-    },
-    {
-      "package": "has-values",
+      "dependency": "has-values",
       "level": 8,
       "version": "1.0.0"
     },
     {
-      "package": "is-number",
-      "level": 9,
-      "version": "3.0.0"
-    },
-    {
-      "package": "kind-of",
-      "level": 9,
-      "version": "4.0.0"
-    },
-    {
-      "package": "is-buffer",
-      "level": 10,
-      "version": "1.1.6"
-    },
-    {
-      "package": "isobject",
-      "level": 7,
-      "version": "3.0.1"
-    },
-    {
-      "package": "set-value",
+      "dependency": "set-value",
       "level": 7,
       "version": "2.0.1"
     },
     {
-      "package": "extend-shallow",
-      "level": 8,
-      "version": "2.0.1"
+      "dependency": "union-value",
+      "level": 7,
+      "version": "1.0.1"
     },
     {
-      "package": "is-plain-object",
-      "level": 8,
-      "version": "2.0.4"
-    },
-    {
-      "package": "is-extendable",
-      "level": 8,
-      "version": "0.1.1"
-    },
-    {
-      "package": "split-string",
+      "dependency": "arr-union",
       "level": 8,
       "version": "3.1.0"
     },
     {
-      "package": "union-value",
-      "level": 7,
-      "version": "1.0.1"
-    },
-    {
-      "package": "arr-union",
-      "level": 8,
-      "version": "3.1.0"
-    },
-    {
-      "package": "get-value",
-      "level": 8,
-      "version": "2.0.6"
-    },
-    {
-      "package": "is-extendable",
-      "level": 8,
-      "version": "0.1.1"
-    },
-    {
-      "package": "set-value",
-      "level": 8,
-      "version": "2.0.1"
-    },
-    {
-      "package": "unset-value",
+      "dependency": "unset-value",
       "level": 7,
       "version": "1.0.0"
     },
     {
-      "package": "has-value",
-      "level": 8,
-      "version": "0.3.1"
-    },
-    {
-      "package": "has-values",
-      "level": 9,
-      "version": "0.1.4"
-    },
-    {
-      "package": "get-value",
-      "level": 9,
-      "version": "2.0.6"
-    },
-    {
-      "package": "isobject",
-      "level": 9,
-      "version": "2.1.0"
-    },
-    {
-      "package": "isobject",
-      "level": 8,
-      "version": "3.0.1"
-    },
-    {
-      "package": "get-value",
-      "level": 7,
-      "version": "2.0.6"
-    },
-    {
-      "package": "to-object-path",
+      "dependency": "to-object-path",
       "level": 7,
       "version": "0.3.0"
     },
     {
-      "package": "kind-of",
-      "level": 8,
-      "version": "3.2.2"
-    },
-    {
-      "package": "class-utils",
+      "dependency": "class-utils",
       "level": 6,
       "version": "0.3.6"
     },
     {
-      "package": "arr-union",
-      "level": 7,
-      "version": "3.1.0"
-    },
-    {
-      "package": "define-property",
-      "level": 7,
-      "version": "0.2.5"
-    },
-    {
-      "package": "isobject",
-      "level": 7,
-      "version": "3.0.1"
-    },
-    {
-      "package": "static-extend",
+      "dependency": "static-extend",
       "level": 7,
       "version": "0.1.2"
     },
     {
-      "package": "define-property",
-      "level": 8,
-      "version": "0.2.5"
-    },
-    {
-      "package": "object-copy",
+      "dependency": "object-copy",
       "level": 8,
       "version": "0.1.0"
     },
     {
-      "package": "copy-descriptor",
+      "dependency": "copy-descriptor",
       "level": 9,
       "version": "0.1.1"
     },
     {
-      "package": "define-property",
-      "level": 9,
-      "version": "0.2.5"
-    },
-    {
-      "package": "kind-of",
-      "level": 9,
-      "version": "3.2.2"
-    },
-    {
-      "package": "define-property",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "isobject",
-      "level": 6,
-      "version": "3.0.1"
-    },
-    {
-      "package": "mixin-deep",
+      "dependency": "mixin-deep",
       "level": 6,
       "version": "1.3.2"
     },
     {
-      "package": "for-in",
+      "dependency": "for-in",
       "level": 7,
       "version": "1.0.2"
     },
     {
-      "package": "is-extendable",
-      "level": 7,
-      "version": "1.0.1"
-    },
-    {
-      "package": "pascalcase",
+      "dependency": "pascalcase",
       "level": 6,
       "version": "0.1.1"
     },
     {
-      "package": "component-emitter",
-      "level": 6,
-      "version": "1.3.0"
-    },
-    {
-      "package": "debug",
-      "level": 5,
-      "version": "2.6.9"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "2.0.1"
-    },
-    {
-      "package": "use",
+      "dependency": "use",
       "level": 5,
       "version": "3.1.1"
     },
     {
-      "package": "source-map",
-      "level": 5,
-      "version": "0.5.7"
-    },
-    {
-      "package": "to-regex",
-      "level": 4,
-      "version": "3.0.2"
-    },
-    {
-      "package": "safe-regex",
-      "level": 5,
-      "version": "1.1.0"
-    },
-    {
-      "package": "regex-not",
-      "level": 5,
-      "version": "1.0.2"
-    },
-    {
-      "package": "extend-shallow",
-      "level": 5,
-      "version": "3.0.2"
-    },
-    {
-      "package": "define-property",
-      "level": 5,
-      "version": "2.0.2"
-    },
-    {
-      "package": "fragment-cache",
-      "level": 4,
-      "version": "0.2.1"
-    },
-    {
-      "package": "map-cache",
-      "level": 5,
-      "version": "0.2.2"
-    },
-    {
-      "package": "kind-of",
-      "level": 4,
-      "version": "6.0.3"
-    },
-    {
-      "package": "object.pick",
-      "level": 4,
-      "version": "1.3.0"
-    },
-    {
-      "package": "isobject",
-      "level": 5,
-      "version": "3.0.1"
-    },
-    {
-      "package": "array-unique",
-      "level": 4,
-      "version": "0.3.2"
-    },
-    {
-      "package": "test-exclude",
+      "dependency": "test-exclude",
       "level": 3,
       "version": "4.2.3"
     },
     {
-      "package": "arrify",
+      "dependency": "read-pkg-up",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "object-assign",
-      "level": 4,
-      "version": "4.1.1"
-    },
-    {
-      "package": "read-pkg-up",
-      "level": 4,
-      "version": "1.0.1"
-    },
-    {
-      "package": "find-up",
-      "level": 5,
-      "version": "1.1.2"
-    },
-    {
-      "package": "read-pkg",
+      "dependency": "read-pkg",
       "level": 5,
       "version": "1.1.0"
     },
     {
-      "package": "load-json-file",
+      "dependency": "load-json-file",
       "level": 6,
       "version": "1.1.0"
     },
     {
-      "package": "parse-json",
+      "dependency": "parse-json",
       "level": 7,
       "version": "2.2.0"
     },
     {
-      "package": "error-ex",
+      "dependency": "error-ex",
       "level": 8,
       "version": "1.3.2"
     },
     {
-      "package": "is-arrayish",
+      "dependency": "is-arrayish",
       "level": 9,
       "version": "0.2.1"
     },
     {
-      "package": "graceful-fs",
-      "level": 7,
-      "version": "4.2.9"
-    },
-    {
-      "package": "pify",
+      "dependency": "pify",
       "level": 7,
       "version": "2.3.0"
     },
     {
-      "package": "pinkie-promise",
-      "level": 7,
-      "version": "2.0.1"
-    },
-    {
-      "package": "strip-bom",
-      "level": 7,
-      "version": "2.0.0"
-    },
-    {
-      "package": "normalize-package-data",
+      "dependency": "normalize-package-data",
       "level": 6,
       "version": "2.5.0"
     },
     {
-      "package": "validate-npm-package-license",
+      "dependency": "validate-npm-package-license",
       "level": 7,
       "version": "3.0.4"
     },
     {
-      "package": "spdx-correct",
+      "dependency": "spdx-correct",
       "level": 8,
       "version": "3.1.1"
     },
     {
-      "package": "spdx-expression-parse",
+      "dependency": "spdx-expression-parse",
       "level": 9,
       "version": "3.0.1"
     },
     {
-      "package": "spdx-license-ids",
+      "dependency": "spdx-license-ids",
       "level": 9,
       "version": "3.0.11"
     },
     {
-      "package": "spdx-expression-parse",
-      "level": 8,
-      "version": "3.0.1"
-    },
-    {
-      "package": "spdx-exceptions",
+      "dependency": "spdx-exceptions",
       "level": 9,
       "version": "2.3.0"
     },
     {
-      "package": "spdx-license-ids",
-      "level": 9,
-      "version": "3.0.11"
-    },
-    {
-      "package": "hosted-git-info",
+      "dependency": "hosted-git-info",
       "level": 7,
       "version": "2.8.9"
     },
     {
-      "package": "semver",
-      "level": 7,
-      "version": "5.7.1"
-    },
-    {
-      "package": "resolve",
-      "level": 7,
-      "version": "1.22.0"
-    },
-    {
-      "package": "path-type",
+      "dependency": "path-type",
       "level": 6,
       "version": "1.1.0"
     },
     {
-      "package": "pinkie-promise",
-      "level": 7,
-      "version": "2.0.1"
-    },
-    {
-      "package": "graceful-fs",
-      "level": 7,
-      "version": "4.2.9"
-    },
-    {
-      "package": "pify",
-      "level": 7,
-      "version": "2.3.0"
-    },
-    {
-      "package": "micromatch",
-      "level": 4,
-      "version": "2.3.11"
-    },
-    {
-      "package": "arr-diff",
-      "level": 5,
-      "version": "2.0.0"
-    },
-    {
-      "package": "arr-flatten",
-      "level": 6,
-      "version": "1.1.0"
-    },
-    {
-      "package": "array-unique",
-      "level": 5,
-      "version": "0.2.1"
-    },
-    {
-      "package": "expand-brackets",
-      "level": 5,
-      "version": "0.1.5"
-    },
-    {
-      "package": "is-posix-bracket",
+      "dependency": "is-posix-bracket",
       "level": 6,
       "version": "0.1.1"
     },
     {
-      "package": "filename-regex",
+      "dependency": "filename-regex",
       "level": 5,
       "version": "2.0.1"
     },
     {
-      "package": "braces",
-      "level": 5,
-      "version": "1.8.5"
-    },
-    {
-      "package": "expand-range",
+      "dependency": "expand-range",
       "level": 6,
       "version": "1.8.2"
     },
     {
-      "package": "fill-range",
-      "level": 7,
-      "version": "2.2.4"
-    },
-    {
-      "package": "is-number",
-      "level": 8,
-      "version": "2.1.0"
-    },
-    {
-      "package": "kind-of",
-      "level": 9,
-      "version": "3.2.2"
-    },
-    {
-      "package": "isobject",
-      "level": 8,
-      "version": "2.1.0"
-    },
-    {
-      "package": "isarray",
-      "level": 9,
-      "version": "1.0.0"
-    },
-    {
-      "package": "randomatic",
+      "dependency": "randomatic",
       "level": 8,
       "version": "3.1.1"
     },
     {
-      "package": "is-number",
-      "level": 9,
-      "version": "4.0.0"
-    },
-    {
-      "package": "kind-of",
-      "level": 9,
-      "version": "6.0.3"
-    },
-    {
-      "package": "math-random",
+      "dependency": "math-random",
       "level": 9,
       "version": "1.0.4"
     },
     {
-      "package": "repeat-element",
-      "level": 8,
-      "version": "1.1.4"
-    },
-    {
-      "package": "repeat-string",
-      "level": 8,
-      "version": "1.6.1"
-    },
-    {
-      "package": "preserve",
+      "dependency": "preserve",
       "level": 6,
       "version": "0.2.0"
     },
     {
-      "package": "repeat-element",
-      "level": 6,
-      "version": "1.1.4"
-    },
-    {
-      "package": "is-extglob",
+      "dependency": "is-extglob",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "extglob",
-      "level": 5,
-      "version": "0.3.2"
-    },
-    {
-      "package": "is-extglob",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-glob",
+      "dependency": "is-glob",
       "level": 5,
       "version": "2.0.1"
     },
     {
-      "package": "is-extglob",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "kind-of",
-      "level": 5,
-      "version": "3.2.2"
-    },
-    {
-      "package": "is-buffer",
-      "level": 6,
-      "version": "1.1.6"
-    },
-    {
-      "package": "normalize-path",
+      "dependency": "normalize-path",
       "level": 5,
       "version": "2.1.1"
     },
     {
-      "package": "remove-trailing-separator",
+      "dependency": "remove-trailing-separator",
       "level": 6,
       "version": "1.1.0"
     },
     {
-      "package": "object.omit",
+      "dependency": "object.omit",
       "level": 5,
       "version": "2.0.1"
     },
     {
-      "package": "for-own",
+      "dependency": "for-own",
       "level": 6,
       "version": "0.1.5"
     },
     {
-      "package": "for-in",
-      "level": 7,
-      "version": "1.0.2"
-    },
-    {
-      "package": "is-extendable",
-      "level": 6,
-      "version": "0.1.1"
-    },
-    {
-      "package": "parse-glob",
+      "dependency": "parse-glob",
       "level": 5,
       "version": "3.0.4"
     },
     {
-      "package": "glob-base",
+      "dependency": "glob-base",
       "level": 6,
       "version": "0.3.0"
     },
     {
-      "package": "glob-parent",
+      "dependency": "glob-parent",
       "level": 7,
       "version": "2.0.0"
     },
     {
-      "package": "is-glob",
-      "level": 8,
-      "version": "2.0.1"
-    },
-    {
-      "package": "is-glob",
-      "level": 7,
-      "version": "2.0.1"
-    },
-    {
-      "package": "is-dotfile",
+      "dependency": "is-dotfile",
       "level": 6,
       "version": "1.0.3"
     },
     {
-      "package": "is-extglob",
-      "level": 6,
-      "version": "1.0.0"
-    },
-    {
-      "package": "is-glob",
-      "level": 6,
-      "version": "2.0.1"
-    },
-    {
-      "package": "regex-cache",
+      "dependency": "regex-cache",
       "level": 5,
       "version": "0.4.4"
     },
     {
-      "package": "is-equal-shallow",
+      "dependency": "is-equal-shallow",
       "level": 6,
       "version": "0.1.3"
     },
     {
-      "package": "is-primitive",
+      "dependency": "is-primitive",
       "level": 7,
       "version": "2.0.0"
     },
     {
-      "package": "require-main-filename",
+      "dependency": "require-main-filename",
       "level": 4,
       "version": "1.0.1"
     },
     {
-      "package": "md5-hex",
-      "level": 3,
-      "version": "1.3.0"
-    },
-    {
-      "package": "md5-o-matic",
+      "dependency": "md5-o-matic",
       "level": 4,
       "version": "0.1.1"
     },
     {
-      "package": "spawn-wrap",
+      "dependency": "spawn-wrap",
       "level": 3,
       "version": "1.4.3"
     },
     {
-      "package": "foreground-child",
-      "level": 4,
-      "version": "1.5.6"
-    },
-    {
-      "package": "os-homedir",
-      "level": 4,
-      "version": "1.0.2"
-    },
-    {
-      "package": "rimraf",
-      "level": 4,
-      "version": "2.7.1"
-    },
-    {
-      "package": "signal-exit",
-      "level": 4,
-      "version": "3.0.7"
-    },
-    {
-      "package": "mkdirp",
-      "level": 4,
-      "version": "0.5.5"
-    },
-    {
-      "package": "which",
-      "level": 4,
-      "version": "1.3.1"
-    },
-    {
-      "package": "yargs",
+      "dependency": "yargs",
       "level": 3,
       "version": "11.1.0"
     },
     {
-      "package": "cliui",
+      "dependency": "cliui",
       "level": 4,
       "version": "4.1.0"
     },
     {
-      "package": "string-width",
+      "dependency": "string-width",
       "level": 5,
       "version": "2.1.1"
     },
     {
-      "package": "strip-ansi",
-      "level": 5,
-      "version": "4.0.0"
-    },
-    {
-      "package": "ansi-regex",
-      "level": 6,
-      "version": "3.0.0"
-    },
-    {
-      "package": "wrap-ansi",
+      "dependency": "wrap-ansi",
       "level": 5,
       "version": "2.1.0"
     },
     {
-      "package": "string-width",
-      "level": 6,
-      "version": "1.0.2"
-    },
-    {
-      "package": "code-point-at",
+      "dependency": "code-point-at",
       "level": 7,
       "version": "1.1.0"
     },
     {
-      "package": "is-fullwidth-code-point",
+      "dependency": "is-fullwidth-code-point",
       "level": 7,
       "version": "1.0.0"
     },
     {
-      "package": "number-is-nan",
+      "dependency": "number-is-nan",
       "level": 8,
       "version": "1.0.1"
     },
     {
-      "package": "strip-ansi",
-      "level": 7,
-      "version": "3.0.1"
-    },
-    {
-      "package": "strip-ansi",
-      "level": 6,
-      "version": "3.0.1"
-    },
-    {
-      "package": "find-up",
-      "level": 4,
-      "version": "2.1.0"
-    },
-    {
-      "package": "decamelize",
+      "dependency": "decamelize",
       "level": 4,
       "version": "1.2.0"
     },
     {
-      "package": "os-locale",
+      "dependency": "os-locale",
       "level": 4,
       "version": "2.1.0"
     },
     {
-      "package": "execa",
+      "dependency": "execa",
       "level": 5,
       "version": "0.7.0"
     },
     {
-      "package": "is-stream",
+      "dependency": "is-stream",
       "level": 6,
       "version": "1.1.0"
     },
     {
-      "package": "npm-run-path",
+      "dependency": "npm-run-path",
       "level": 6,
       "version": "2.0.2"
     },
     {
-      "package": "path-key",
+      "dependency": "path-key",
       "level": 7,
       "version": "2.0.1"
     },
     {
-      "package": "cross-spawn",
-      "level": 6,
-      "version": "5.1.0"
-    },
-    {
-      "package": "which",
-      "level": 7,
-      "version": "1.3.1"
-    },
-    {
-      "package": "lru-cache",
-      "level": 7,
-      "version": "4.1.5"
-    },
-    {
-      "package": "shebang-command",
+      "dependency": "shebang-command",
       "level": 7,
       "version": "1.2.0"
     },
     {
-      "package": "shebang-regex",
+      "dependency": "shebang-regex",
       "level": 8,
       "version": "1.0.0"
     },
     {
-      "package": "p-finally",
+      "dependency": "p-finally",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "signal-exit",
-      "level": 6,
-      "version": "3.0.7"
-    },
-    {
-      "package": "strip-eof",
+      "dependency": "strip-eof",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "get-stream",
+      "dependency": "get-stream",
       "level": 6,
       "version": "3.0.0"
     },
     {
-      "package": "mem",
+      "dependency": "mem",
       "level": 5,
       "version": "1.1.0"
     },
     {
-      "package": "mimic-fn",
+      "dependency": "mimic-fn",
       "level": 6,
       "version": "1.2.0"
     },
     {
-      "package": "lcid",
+      "dependency": "lcid",
       "level": 5,
       "version": "1.0.0"
     },
     {
-      "package": "invert-kv",
+      "dependency": "invert-kv",
       "level": 6,
       "version": "1.0.0"
     },
     {
-      "package": "require-directory",
+      "dependency": "require-directory",
       "level": 4,
       "version": "2.1.1"
     },
     {
-      "package": "require-main-filename",
-      "level": 4,
-      "version": "1.0.1"
-    },
-    {
-      "package": "set-blocking",
+      "dependency": "set-blocking",
       "level": 4,
       "version": "2.0.0"
     },
     {
-      "package": "string-width",
-      "level": 4,
-      "version": "2.1.1"
-    },
-    {
-      "package": "is-fullwidth-code-point",
-      "level": 5,
-      "version": "2.0.0"
-    },
-    {
-      "package": "strip-ansi",
-      "level": 5,
-      "version": "4.0.0"
-    },
-    {
-      "package": "get-caller-file",
+      "dependency": "get-caller-file",
       "level": 4,
       "version": "1.0.3"
     },
     {
-      "package": "which-module",
+      "dependency": "which-module",
       "level": 4,
       "version": "2.0.0"
     },
     {
-      "package": "y18n",
+      "dependency": "y18n",
       "level": 4,
       "version": "3.2.2"
     },
     {
-      "package": "yargs-parser",
+      "dependency": "yargs-parser",
       "level": 4,
       "version": "9.0.2"
     },
     {
-      "package": "camelcase",
+      "dependency": "camelcase",
       "level": 5,
       "version": "4.1.0"
     },
     {
-      "package": "yargs-parser",
-      "level": 3,
-      "version": "8.1.0"
-    },
-    {
-      "package": "camelcase",
-      "level": 4,
-      "version": "4.1.0"
-    },
-    {
-      "package": "signal-exit",
-      "level": 3,
-      "version": "3.0.7"
-    },
-    {
-      "package": "mkdirp",
-      "level": 3,
-      "version": "0.5.5"
-    },
-    {
-      "package": "minimist",
-      "level": 4,
-      "version": "1.2.5"
-    },
-    {
-      "package": "trivial-deferred",
+      "dependency": "trivial-deferred",
       "level": 2,
       "version": "1.0.1"
     },
     {
-      "package": "tap-parser",
-      "level": 2,
-      "version": "5.4.0"
-    },
-    {
-      "package": "events-to-array",
+      "dependency": "events-to-array",
       "level": 3,
       "version": "1.1.2"
     },
     {
-      "package": "js-yaml",
-      "level": 3,
-      "version": "3.14.1"
-    },
-    {
-      "package": "readable-stream",
-      "level": 3,
-      "version": "2.3.7"
-    },
-    {
-      "package": "tsame",
+      "dependency": "tsame",
       "level": 2,
       "version": "1.1.2"
     },
     {
-      "package": "function-loop",
+      "dependency": "function-loop",
       "level": 2,
       "version": "1.0.2"
     },
     {
-      "package": "yapool",
+      "dependency": "yapool",
       "level": 2,
       "version": "1.0.0"
     },
     {
-      "package": "tmatch",
+      "dependency": "tmatch",
       "level": 2,
       "version": "3.1.0"
     }
