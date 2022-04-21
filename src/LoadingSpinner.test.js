@@ -12,16 +12,15 @@
 
 import {
   render,
-  screen,
+  screen
 } from '@testing-library/react';
 
-import App from './App';
+import LoadingSpinner from './LoadingSpinner';
 
-test('renders the app', async () => {
-  const props = {};
+test('renders the spinner', () => {
+  let props = {};
 
-  render(<App {...props} />);
+  render(<LoadingSpinner {...props} />);
   
-  const ele = await screen.findByText(/fCC D3 Force Directed Graph/i);
-  expect(ele).toBeInTheDocument();
+  expect(screen.getByText('Loading data, please be patient.')).toBeInTheDocument();
 });

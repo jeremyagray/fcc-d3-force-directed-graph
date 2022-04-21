@@ -1,4 +1,4 @@
-/*
+/**
  *
  * fcc-d3-force-directed-graph, fCC D3 Force Directed Graph Project
  *
@@ -10,20 +10,22 @@
  *
  */
 
-// D3.
-import * as d3 from 'd3';
+// Components.
+import ForceDirectedGraph from './ForceDirectedGraph';
 
+// Styling.
 import './App.css';
 
 const App = (props) => {
   return (
     <div className="App">
-      <h1>
-        fCC D3 Force Directed Graph: React Demo
+      <h1 id="title">
+        FCC D3 Force Directed Graph
       </h1>
-      <p>
-        This is the fCC D3 Force Directed Graph React demo.
+      <p id="description">
+        Browserify Package Dependency Graph
       </p>
+      <ForceDirectedGraph />
     </div>
   );
 }
