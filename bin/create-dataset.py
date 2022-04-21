@@ -108,6 +108,7 @@ def nodes(tree):
             "dependency": tree["dependency"],
             "level": tree["level"],
             "version": tree["version"],
+            "group": tree["group"],
         },
     ]
 
@@ -148,6 +149,42 @@ def pairs(tree, ignore_version=True):
             my_pairs += pairs(child)
 
     return my_pairs
+
+
+def _set_group(tree, group):
+    """Set the group for a tree of dependencies."""
+    grouped = {
+        "dependency": tree["dependency"],
+        "level": tree["level"],
+        "version": tree["version"],
+        "group": group,
+        "children": [],
+    }
+
+    if tree["children"]:
+        for child in tree["children"]:
+            grouped["children"].append(_set_group(child, group))
+
+    return grouped
+
+
+def group(tree, ignore_version=True):
+    """Group by the top level dependencies."""
+    group = 0
+    grouped = {
+        "dependency": tree["dependency"],
+        "level": tree["level"],
+        "version": tree["version"],
+        "group": group,
+        "children": [],
+    }
+
+    if tree["children"]:
+        for child in tree["children"]:
+            group += 1
+            grouped["children"].append(_set_group(child, group))
+
+    return grouped
 
 
 def links(tree, ignore_version=True):
@@ -198,9 +235,11 @@ def main():
     tree = treeify(dependencies)
 
     print(json.dumps({
-        "nodes": snowflake(nodes(tree)),
+        "nodes": snowflake(nodes(group(tree))),
         "links": links(tree),
     }, indent=2))
+    # print(json.dumps(tree, indent=2))
+    # print(json.dumps(group(tree), indent=2))
 
     return
 
