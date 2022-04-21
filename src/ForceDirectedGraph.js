@@ -33,17 +33,8 @@ import useFetchData from './hooks/useFetchData';
 import LoadingError from './LoadingError';
 import LoadingSpinner from './LoadingSpinner';
 
-
 function ForceDirectedGraph() {
-  return (
-    <div id="visualization">
-      <ForceDirectedGraphSVG />
-    </div>
-  );
-}
-
-function ForceDirectedGraphSVG() {
-  // Refs.
+  // Ref.
   const ref = useRef();
 
   // Data state.
@@ -82,7 +73,7 @@ function ForceDirectedGraphSVG() {
 
   if (loadingData) {
     return (
-      <div>
+      <div id='visualization'>
         <p>
           Loading dependency data...
         </p>
@@ -90,7 +81,7 @@ function ForceDirectedGraphSVG() {
     );
   } else if (loadingDataError) {
     return (
-      <div>
+      <div id='visualization'>
         <p>
           Error loading data:  {loadingDataError}
         </p>
@@ -99,11 +90,68 @@ function ForceDirectedGraphSVG() {
   } else {
     return (
       <div
+        id='visualization'
         ref={ref}
       />
     );
   }
 }
+
+// function ForceDirectedGraph() {
+//   // Ref.
+//   const ref = useRef();
+
+//   const {
+//     'data': deps,
+//     'isLoading': isLoadingDeps,
+//     'error': loadingDepsError
+//   } = useFetchData('data.json');
+
+//   const statuses = [
+//     isLoadingDeps
+//   ];
+//   const errors = [
+//     loadingDepsError
+//   ];
+
+//   // useEffect(() => {
+//   //   if (deps && deps.links) {
+//   //     generateForceDirectedGraph(deps, ref.current);
+//   //   }
+
+//   //   return () => {
+//   //   };
+//   // }, [deps]);
+
+//   if (statuses.some(Boolean)) {
+//     return (
+//       <div
+//         className='loadingStatuses d-flex'
+//       >
+//         <LoadingSpinner />
+//       </div>
+//     );
+//   } else if (errors.some(Boolean)) {
+//     return (
+//       <div
+//         className='loadingErrors'
+//       >
+//         <LoadingError
+//           errors={errors}
+//         />
+//       </div>
+//     );
+//   } else {
+//     generateForceDirectedGraph(deps, ref.current);
+
+//     return (
+//       <div
+//         id='visualization'
+//         ref={ref}
+//       />
+//     );
+//   }
+// }
 
 export default ForceDirectedGraph;
 
@@ -136,51 +184,105 @@ function generateForceDirectedGraph(deps, element, dimensions = {
   forceLink.strength(linkStrength);
 
   const simulation = d3.forceSimulation(deps.nodes)
-        .force("link", forceLink)
-        .force("charge", forceNode)
-        .force("center",  d3.forceCenter())
-        .on("tick", ticked);
+        .force('link', forceLink)
+        .force('charge', forceNode)
+        .force('center',  d3.forceCenter())
+        .on('tick', ticked);
 
   // SVG canvas.
   const svg = d3.select(element)
-        .append("svg")
-        .attr("id", "canvas")
-        .attr("width", dimensions.width)
-        .attr("height", dimensions.height)
-        .attr("viewBox", [-dimensions.width / 2, -dimensions.height / 2, dimensions.width, dimensions.height])
+        .append('svg')
+        .attr('id', 'canvas')
+        .attr('width', dimensions.width)
+        .attr('height', dimensions.height)
+        .attr('viewBox', [-dimensions.width / 2, -dimensions.height / 2, dimensions.width, dimensions.height])
         .style('background-color', '#ffffff');
 
-  const link = svg.append("g")
-        .attr("stroke", '#ff0000')
-        .attr("stroke-opacity", 100)
-        .attr("stroke-width", 1)
-        .attr("stroke-linecap", 'round')
-        .selectAll("line")
+  const link = svg.append('g')
+        .attr('stroke', '#000000')
+        .attr('stroke-opacity', 100)
+        .attr('stroke-linecap', 'round')
+        .selectAll('line')
         .data(deps.links)
-        .join("line")
+        .join('line')
         .attr('class', 'link')
+        .attr('stroke-width', (d) => {
+          return d.links * 2;
+        })
         .attr('data-source', (d) => {
-          return d['source'];
+          return d.source.dependency;
         })
         .attr('data-target', (d) => {
-          return d['target'];
+          return d.target.dependency;
         })
         .attr('data-links', (d) => {
           return d['links'];
-        });
+        })
+        .on('mouseenter mouseover', (event, datum) =>
+          {
+            tooltip
+	      .style('display', 'inline')
+              .style('position', 'absolute')
+              .style('width', '250px')
+              .style('height', '50px')
+	      .style('visibility', 'visible')
+	      .style('opacity', '0.75')
+	      .style('background-color', '#590000')
+	      .style('color', '#ffffff')
+              .style('left', (event.pageX + 20) + 'px')
+              .style('top', (event.pageY + 20) + 'px')
+	      .attr('data-source', datum.source.dependency)
+	      .attr('data-target', datum.target.dependency)
+	      .attr('data-links', datum.links)
+	      .html(`<ul><li>source: ${datum.source.dependency}<\/li><li>target: ${datum.target.dependency}<\/li><\/ul>`);
+          })
+        .on('mousemove', (event, datum) =>
+          {
+            tooltip
+              .style('left', (event.pageX + 20) + 'px')
+              .style('top', (event.pageY + 20) + 'px');
+          })
+        .on('mouseout mouseleave', (event, datum) =>
+          {
+            tooltip
+              .style('opacity', '0')
+	      .style('display', 'none')
+	      .style('visibility', 'hidden');
+          });
 
-  const node = svg.append("g")
-        .attr("fill", '#000000')
-        .attr("stroke", '#000000')
-        .attr("stroke-opacity", 100)
-        .attr("stroke-width", 1)
-        .selectAll("circle")
+  const node = svg.append('g')
+        .selectAll('circle')
         .data(deps.nodes)
-        .join("circle")
+        .join('circle')
         .attr('class', 'node')
-        .attr("r", 5)
+        .attr('r', 5)
+        .attr('stroke', (d) => {
+          const pick = parseInt(d.group) % 3;
+          if (pick == 0) {
+            return '#ff0000';
+          } else if (pick == 1) {
+            return '#00ff00';
+          } else if (pick == 2) {
+            return '#0000ff';
+          }
+        })
+        .attr('stroke-opacity', 100)
+        .attr('stroke-width', 1)
+        .attr('fill', (d) => {
+          const pick = parseInt(d.group) % 3;
+          if (pick == 0) {
+            return '#ff0000';
+          } else if (pick == 1) {
+            return '#00ff00';
+          } else if (pick == 2) {
+            return '#0000ff';
+          }
+        })
         .attr('data-dependency', (d) => {
           return d['dependency'];
+        })
+        .attr('data-group', (d) => {
+          return d['group'];
         })
         .on('mouseenter mouseover', (event, datum) =>
           {
@@ -196,6 +298,7 @@ function generateForceDirectedGraph(deps, element, dimensions = {
               .style('left', (event.pageX + 20) + 'px')
               .style('top', (event.pageY + 20) + 'px')
 	      .attr('data-dependency', datum['dependency'])
+	      .attr('data-group', datum['group'])
 	      .html(`<p>${datum['dependency']}<\/p>`);
           })
         .on('mousemove', (event, datum) =>
@@ -215,14 +318,14 @@ function generateForceDirectedGraph(deps, element, dimensions = {
 
   function ticked() {
     link
-      .attr("x1", d => d.source.x)
-      .attr("y1", d => d.source.y)
-      .attr("x2", d => d.target.x)
-      .attr("y2", d => d.target.y);
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
 
     node
-      .attr("cx", d => d.x)
-      .attr("cy", d => d.y);
+      .attr('cx', d => d.x)
+      .attr('cy', d => d.y);
   }
 
   function drag(simulation) {
@@ -244,8 +347,8 @@ function generateForceDirectedGraph(deps, element, dimensions = {
     }
 
     return d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended);
+      .on('start', dragstarted)
+      .on('drag', dragged)
+      .on('end', dragended);
   }
 }
