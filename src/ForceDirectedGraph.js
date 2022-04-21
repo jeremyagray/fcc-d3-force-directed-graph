@@ -171,17 +171,26 @@ function generateForceDirectedGraph(deps, element, dimensions = {
         .style('display', 'none')
         .style('visibility', 'hidden');
 
+  // Count the links to each node.
+  for (let i = 0; i < deps.nodes.length; i++) {
+    let count = 0;
+    for (let j = 0; j < deps.links.length; j++) {
+      if (deps.nodes[i].dependency === deps.links[j].source || deps.nodes[i].dependency === deps.links[j].target) {
+        count += 1;
+      }
+    }
+    deps.nodes[i]['links'] = count;
+  }
+
   // Construct the forces.
-  const forceNode = d3.forceManyBody();
-  const forceLink = d3.forceLink(deps.links).id((d) => {
-    return d['dependency'];
+  const forceNode = d3.forceManyBody().strength((d) => {
+    return -2 * d.links;
   });
-
-  const nodeStrength = -5;
-  const linkStrength = 0.1;
-
-  forceNode.strength(nodeStrength);
-  forceLink.strength(linkStrength);
+  const forceLink = d3.forceLink(deps.links).strength((d) => {
+    return 0.1 * d.links;
+  }).id((d) => {
+    return d.dependency;
+  });
 
   const simulation = d3.forceSimulation(deps.nodes)
         .force('link', forceLink)
@@ -255,7 +264,10 @@ function generateForceDirectedGraph(deps, element, dimensions = {
         .data(deps.nodes)
         .join('circle')
         .attr('class', 'node')
-        .attr('r', 5)
+        // .attr('r', 5)
+        .attr('r', (d) => {
+          return 5 + d.links * 0.2;
+        })
         .attr('stroke', (d) => {
           const pick = parseInt(d.group) % 3;
           if (pick == 0) {
