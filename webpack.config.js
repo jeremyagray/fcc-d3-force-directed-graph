@@ -48,9 +48,11 @@ module.exports = {
   'output': {
     'publicPath': '/',
     'path': path.resolve(__dirname, 'dist'),
-    'filename': 'bundle.js'
+    'filename': 'site.js'
   },
   'plugins': [
-    new HtmlWebpackPlugin({ template: './public/index.html' })
+    new HtmlWebpackPlugin({
+      'template': './public/index.html'
+    })
   ]
 };
